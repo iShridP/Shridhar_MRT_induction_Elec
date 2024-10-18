@@ -1,0 +1,22 @@
+[0.949s] Invoking command in '/home/shridhar/mrt_ws/src/week0_tutorials': PYTHONPATH=/home/shridhar/mrt_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/shridhar/mrt_ws/build/week0_tutorials/build install --record /home/shridhar/mrt_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data
+[1.178s] running egg_info
+[1.179s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[1.179s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[1.179s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[1.179s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[1.179s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[1.181s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[1.182s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[1.182s] running build
+[1.182s] running build_py
+[1.182s] running install
+[1.182s] running install_lib
+[1.183s] running install_data
+[1.184s] running install_egg_info
+[1.185s] removing '/home/shridhar/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[1.185s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/shridhar/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[1.186s] running install_scripts
+[1.209s] Installing publisher script to /home/shridhar/mrt_ws/install/week0_tutorials/lib/week0_tutorials
+[1.210s] Installing subscriber script to /home/shridhar/mrt_ws/install/week0_tutorials/lib/week0_tutorials
+[1.210s] writing list of installed files to '/home/shridhar/mrt_ws/build/week0_tutorials/install.log'
+[1.235s] Invoked command in '/home/shridhar/mrt_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/shridhar/mrt_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/shridhar/mrt_ws/build/week0_tutorials/build install --record /home/shridhar/mrt_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data

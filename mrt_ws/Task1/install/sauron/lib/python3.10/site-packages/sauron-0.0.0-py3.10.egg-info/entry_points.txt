@@ -1,0 +1,5 @@
+[console_scripts]
+listener = sauron.listener:main
+publisher1 = sauron.publisher1:main
+publisher2 = sauron.publisher2:main
+
