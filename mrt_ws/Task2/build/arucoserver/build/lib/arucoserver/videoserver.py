@@ -27,8 +27,12 @@ class ArucoMarkerClient(Node):
         self.req.image = self.bridge.cv2_to_imgmsg(cv_image, 'bgr8')
         self.future = self.cli.call_async(self.req)
 
+currentframe = 0
 
 def createImagePath():
+
+    global currentframe
+
     print("Creating path...")
     cam = cv2.VideoCapture("/home/shridhar/Workspaces/mrt_ws/Task2/src/arucoserver/requests/Aruco_1.MOV")
 
@@ -40,7 +44,6 @@ def createImagePath():
     except OSError:
         print('Error: Unable to make Directory for images.')
 
-    currentframe = 0
 
     ret,frame = cam.read()
     
@@ -57,21 +60,38 @@ def createImagePath():
 
     cam.release()
     cv2.destroyAllWindows()
+    
+
+i = 1
+
+def main():
+    createImagePath()
+    rclpy.init()
     send_all_images()
+    rclpy.shutdown()
 
 def send_all_images():
+    global i
+
+    global currentframe
+
     image_directory = "/home/shridhar/Workspaces/mrt_ws/Task2/data/"
-    images = [os.path.join(image_directory, f) for f in os.listdir(image_directory) if f.endswith('.jpg')]
+    #images = [os.path.join(image_directory, f) for f in os.listdir(image_directory) if f.endswith('.jpg')]
 
-    # Ensure the directory contains images
-    if not images:
-        print("No images found in the directory.")
-        return
+    while i < currentframe:
+        image_path = "/home/shridhar/Workspaces/mrt_ws/Task2/data/frame"+str(i)+".jpg"
 
-    rclpy.init()
-    node = ArucoMarkerClient()
+        i += 1
 
-    for image_path in sorted(images):
+        # Ensure the directory contains images
+        if not image_path:
+            print("No images found in the directory.")
+            return
+
+
+        node = ArucoMarkerClient()
+
+        
         node.get_logger().info(f"Processing image: {image_path}")
         node.send_request(image_path)
         
@@ -91,12 +111,14 @@ def send_all_images():
                 # Delete the image after processing
                 try:
                     os.remove(image_path)
-                    node.get_logger().info(f"Deleted image file: {image_path}")
+                    #node.get_logger().info(f"Deleted image file: {image_path}")
                 except Exception as e:
-                    node.get_logger().error(f"Failed to delete image {image_path}: {e}")
+                    #node.get_logger().error(f"Failed to delete image {image_path}: {e}")
+                    print("",end='')
                 break
 
-    rclpy.shutdown()
+   
+
 
 
 if __name__ == '__main__':

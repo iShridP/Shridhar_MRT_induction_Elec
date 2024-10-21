@@ -12,7 +12,9 @@ arucoserver/__init__.py
 arucoserver/client.py
 arucoserver/service.py
 arucoserver/servicetest.py
-arucoserver/videoserver.py
+arucoserver/temp.py
+arucoserver/videoserver1.py
+arucoserver/videoserver2.py
 arucoserver/webcam.py
 resource/arucoserver
 test/test_copyright.py

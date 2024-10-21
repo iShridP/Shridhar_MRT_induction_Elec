@@ -2,6 +2,7 @@
 client = arucoserver.client:main
 service = arucoserver.service:main
 testaruco = arucoserver.servicetest:main
-videoaruco = arucoserver.videoserver:createImagePath
+videoaruco1 = arucoserver.videoserver1:main
+videoaruco2 = arucoserver.videoaerver2:main
 webcam = arucoserver.webcam:capture_and_send_images
 

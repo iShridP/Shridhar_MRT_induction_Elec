@@ -89,7 +89,7 @@ def capture_and_send_images(interval=0.2, num_images=100):
         else:
             print("No image detected from the webcam.")
 
-    print("Done with scanning "+ num_images+" at intervals of "+interval)
+    print("Done with scanning "+ str(num_images)+" at intervals of "+str(interval))
 
     cam.release()
     cv2.destroyAllWindows()
