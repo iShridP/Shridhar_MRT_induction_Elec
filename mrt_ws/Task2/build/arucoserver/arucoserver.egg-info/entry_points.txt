@@ -1,0 +1,7 @@
+[console_scripts]
+client = arucoserver.client:main
+service = arucoserver.service:main
+testaruco = arucoserver.servicetest:main
+videoaruco = arucoserver.videoserver:createImagePath
+webcam = arucoserver.webcam:capture_and_send_images
+

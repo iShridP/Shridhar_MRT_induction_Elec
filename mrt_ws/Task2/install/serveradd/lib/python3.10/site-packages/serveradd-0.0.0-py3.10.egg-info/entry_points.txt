@@ -1,0 +1,4 @@
+[console_scripts]
+client = serveradd.clientnode:main
+service = serveradd.servicenode:main
+

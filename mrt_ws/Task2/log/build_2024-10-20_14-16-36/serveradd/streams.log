@@ -1,0 +1,21 @@
+[0.663s] Invoking command in '/home/shridhar/Workspaces/mrt_ws/Task2/src/serveradd': PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serveradd build --build-base /home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/build install --record /home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/install.log --single-version-externally-managed install_data
+[0.895s] running egg_info
+[0.896s] writing ../../build/serveradd/serveradd.egg-info/PKG-INFO
+[0.896s] writing dependency_links to ../../build/serveradd/serveradd.egg-info/dependency_links.txt
+[0.896s] writing entry points to ../../build/serveradd/serveradd.egg-info/entry_points.txt
+[0.896s] writing requirements to ../../build/serveradd/serveradd.egg-info/requires.txt
+[0.897s] writing top-level names to ../../build/serveradd/serveradd.egg-info/top_level.txt
+[0.898s] reading manifest file '../../build/serveradd/serveradd.egg-info/SOURCES.txt'
+[0.899s] writing manifest file '../../build/serveradd/serveradd.egg-info/SOURCES.txt'
+[0.899s] running build
+[0.899s] running build_py
+[0.899s] running install
+[0.900s] running install_lib
+[0.901s] running install_data
+[0.901s] running install_egg_info
+[0.903s] removing '/home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages/serveradd-0.0.0-py3.10.egg-info' (and everything under it)
+[0.903s] Copying ../../build/serveradd/serveradd.egg-info to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages/serveradd-0.0.0-py3.10.egg-info
+[0.904s] running install_scripts
+[0.926s] Installing client script to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/serveradd
+[0.926s] Installing service script to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/serveradd
+[0.926s] writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/install.log'

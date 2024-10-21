@@ -1,0 +1,11 @@
+source;share/arucosrvmsg/hook/cmake_prefix_path.ps1
+source;share/arucosrvmsg/hook/cmake_prefix_path.dsv
+source;share/arucosrvmsg/hook/cmake_prefix_path.sh
+source;share/arucosrvmsg/hook/ld_library_path_lib.ps1
+source;share/arucosrvmsg/hook/ld_library_path_lib.dsv
+source;share/arucosrvmsg/hook/ld_library_path_lib.sh
+source;share/arucosrvmsg/local_setup.bash
+source;share/arucosrvmsg/local_setup.dsv
+source;share/arucosrvmsg/local_setup.ps1
+source;share/arucosrvmsg/local_setup.sh
+source;share/arucosrvmsg/local_setup.zsh

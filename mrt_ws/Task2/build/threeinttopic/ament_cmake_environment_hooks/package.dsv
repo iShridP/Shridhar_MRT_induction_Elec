@@ -1,0 +1,4 @@
+source;share/threeinttopic/local_setup.bash
+source;share/threeinttopic/local_setup.dsv
+source;share/threeinttopic/local_setup.sh
+source;share/threeinttopic/local_setup.zsh

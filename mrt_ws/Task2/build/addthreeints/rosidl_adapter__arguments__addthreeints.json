@@ -1,0 +1,8 @@
+{
+  "package_name": "addthreeints",
+  "non_idl_tuples": [
+    "/home/shridhar/Workspaces/mrt_ws/Task2/src/addthreeints:msg/Num.msg",
+    "/home/shridhar/Workspaces/mrt_ws/Task2/src/addthreeints:msg/Sphere.msg",
+    "/home/shridhar/Workspaces/mrt_ws/Task2/src/addthreeints:srv/AddThreeInts.srv"
+  ]
+}
