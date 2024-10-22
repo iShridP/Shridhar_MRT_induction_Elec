@@ -1,3 +1,7 @@
+**it is important the full name path to mrt_ws/Task2/src/arucoserver/requests is updated according to your files.
+Check the python code and correct the same.
+
+
 ***ArUco scanner all commands***
 
 i) In mrt_ws/Task2 run "source install/setup.bash" file.
