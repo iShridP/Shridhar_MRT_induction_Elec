@@ -20,7 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'client=arucoserver.client:main',
         	'service=arucoserver.service:main',
         	'testaruco=arucoserver.servicetest:main',
         	'videoaruco1 = arucoserver.videoserver1:main',
