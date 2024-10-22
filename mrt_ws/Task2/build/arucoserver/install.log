@@ -2,6 +2,7 @@
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/videoserver1.py
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/temp.py
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/service.py
+/home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/nonstopwebcam.py
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__init__.py
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/webcam.py
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/client.py
@@ -10,6 +11,7 @@
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__pycache__/videoserver1.cpython-310.pyc
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__pycache__/temp.cpython-310.pyc
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__pycache__/service.cpython-310.pyc
+/home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__pycache__/nonstopwebcam.cpython-310.pyc
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__pycache__/__init__.cpython-310.pyc
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__pycache__/webcam.cpython-310.pyc
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__pycache__/client.cpython-310.pyc
@@ -24,6 +26,7 @@
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info/PKG-INFO
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver/client
+/home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver/nonstopwebcam
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver/service
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver/testaruco
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver/videoaruco1

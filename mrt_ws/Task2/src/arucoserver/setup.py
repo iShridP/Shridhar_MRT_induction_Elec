@@ -24,8 +24,9 @@ setup(
         	'service=arucoserver.service:main',
         	'testaruco=arucoserver.servicetest:main',
         	'videoaruco1 = arucoserver.videoserver1:main',
-        	'videoaruco2 = arucoserver.videoaerver2:main',
+        	'videoaruco2 = arucoserver.videoserver2:main',
         	'webcam = arucoserver.webcam:capture_and_send_images',
+        	'nonstopwebcam = arucoserver.nonstopwebcam:capture_and_send_images',
         ],
     },
 )

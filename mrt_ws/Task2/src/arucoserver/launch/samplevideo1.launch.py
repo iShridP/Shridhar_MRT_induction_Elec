@@ -9,6 +9,6 @@ def generate_launch_description():
         ),
         Node(
             package='arucoserver',
-            executable='videoaruco',
+            executable='videoaruco1',
         ),
     ])
