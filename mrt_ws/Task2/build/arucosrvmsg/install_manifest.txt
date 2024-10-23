@@ -54,6 +54,7 @@
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/__init__.py
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/libarucosrvmsgS__rosidl_generator_py.so
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
 /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/_aruco_markers_s.c

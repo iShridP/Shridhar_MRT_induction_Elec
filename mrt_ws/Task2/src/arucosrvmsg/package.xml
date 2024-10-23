@@ -8,15 +8,11 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <build_depend>rosidl_default_generators</build_depend>
-  <build_depend>sensor_msgs</build_depend>
-  <build_depend>geometry_msgs</build_depend>
-  <build_depend>cv_bridge</build_depend> <!-- cv_bridge as a build dependency -->
-  <build_depend>opencv4</build_depend>  <!-- OpenCV dependency -->
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend> 
+  <depend>opencv4</depend>  
 
-  <exec_depend>sensor_msgs</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
-  <exec_depend>cv_bridge</exec_depend>
-  <exec_depend>opencv4</exec_depend>  <!-- Use opencv4 for OpenCV dependencies -->
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

@@ -17,7 +17,7 @@ class ArucoMarkerClient(Node):
         self.bridge = CvBridge()
 
     def send_request(self, image_path):
-        # Read the image and convert it to a ROS Image message
+       
         cv_image = cv2.imread(image_path)
 
         if cv_image is None:
@@ -37,7 +37,7 @@ def createImagePath():
     cam = cv2.VideoCapture("/home/shridhar/Workspaces/mrt_ws/Task2/src/arucoserver/requests/Aruco_1.MOV")
 
     try:
-        # Create a folder for data from the video
+      
         if not os.path.exists('data'):
             os.makedirs('data')
 
@@ -49,11 +49,10 @@ def createImagePath():
     
     while ret:
 
-        # If the video has frames left, continue creating images
         name = f'./data/frame{currentframe}.jpg'
         print(f'Creating... {name}')
         cv2.imwrite(name, frame)
-        currentframe += 1  # Increment the frame counter
+        currentframe += 1  
 
         ret, frame = cam.read()
 
@@ -66,30 +65,27 @@ i = 1
 
 def main():
     createImagePath()
-    rclpy.init()
+    rclpy.init(args=args)
     send_all_images()
     rclpy.shutdown()
 
 def send_all_images():
+
     global i
 
     global currentframe
-
-    image_directory = "/home/shridhar/Workspaces/mrt_ws/Task2/data/"
-    #images = [os.path.join(image_directory, f) for f in os.listdir(image_directory) if f.endswith('.jpg')]
+    
+    node = ArucoMarkerClient()
 
     while i < currentframe:
         image_path = "/home/shridhar/Workspaces/mrt_ws/Task2/data/frame"+str(i)+".jpg"
 
         i += 1
 
-        # Ensure the directory contains images
+      
         if not image_path:
             print("No images found in the directory.")
             return
-
-
-        node = ArucoMarkerClient()
 
         
         node.get_logger().info(f"Processing image: {image_path}")
@@ -111,9 +107,9 @@ def send_all_images():
                 # Delete the image after processing
                 try:
                     os.remove(image_path)
-                    #node.get_logger().info(f"Deleted image file: {image_path}")
+                    
                 except Exception as e:
-                    #node.get_logger().error(f"Failed to delete image {image_path}: {e}")
+            
                     print("",end='')
                 break
 
@@ -122,4 +118,4 @@ def send_all_images():
 
 
 if __name__ == '__main__':
-    createImagePath()  # Start the process of creating and sending images
+    createImagePath()  

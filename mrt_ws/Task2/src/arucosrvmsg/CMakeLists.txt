@@ -10,8 +10,8 @@ find_package(ament_cmake REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-find_package(cv_bridge REQUIRED)  # Added cv_bridge dependency
-find_package(OpenCV REQUIRED)     # Added OpenCV dependency
+find_package(cv_bridge REQUIRED)  
+find_package(OpenCV REQUIRED)     
 
 # Generate ROS interfaces (messages and services)
 rosidl_generate_interfaces(${PROJECT_NAME}
