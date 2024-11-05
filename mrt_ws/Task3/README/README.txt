@@ -22,7 +22,7 @@ sometimes there will be given an error in which some links in the robot will not
 	ix) ensure rviz2 was running for the entire duration of these changes. Each time rviz2 is turned on again, this error comes back. idk why this happens to me nor why this fix works.
 
 	x) change the joint variables with:
-	ros2 run joint_state_publisher_guis joint_state_publisher_gui
+	ros2 run joint_state_publisher_gui joint_state_publisher_gui
 	this has to be installed beforehand.
 
 
