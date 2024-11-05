@@ -1,0 +1,7 @@
+{
+  "package_name": "arucosrvmsg",
+  "non_idl_tuples": [
+    "/home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg:msg/ArucoMarkers.msg",
+    "/home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg:srv/ArucoMarkers.srv"
+  ]
+}

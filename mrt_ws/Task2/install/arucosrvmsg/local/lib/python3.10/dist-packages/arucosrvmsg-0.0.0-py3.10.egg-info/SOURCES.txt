@@ -1,0 +1,10 @@
+setup.py
+arucosrvmsg/__init__.py
+arucosrvmsg.egg-info/PKG-INFO
+arucosrvmsg.egg-info/SOURCES.txt
+arucosrvmsg.egg-info/dependency_links.txt
+arucosrvmsg.egg-info/top_level.txt
+arucosrvmsg/msg/__init__.py
+arucosrvmsg/msg/_aruco_markers.py
+arucosrvmsg/srv/__init__.py
+arucosrvmsg/srv/_aruco_markers.py

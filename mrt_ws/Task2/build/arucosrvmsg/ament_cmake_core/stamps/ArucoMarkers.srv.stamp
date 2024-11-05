@@ -1,0 +1,15 @@
+# Request
+sensor_msgs/Image image
+
+---
+# Response
+int32[] ids
+geometry_msgs/Polygon[] bounding_boxes
+
+
+
+
+
+
+
+

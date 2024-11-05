@@ -1,0 +1,22 @@
+[0.643s] Invoking command in '/home/shridhar/Workspaces/mrt_ws/Task2/src/serveradd': PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serveradd build --build-base /home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/build install --record /home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/install.log --single-version-externally-managed install_data
+[0.877s] running egg_info
+[0.878s] writing ../../build/serveradd/serveradd.egg-info/PKG-INFO
+[0.878s] writing dependency_links to ../../build/serveradd/serveradd.egg-info/dependency_links.txt
+[0.878s] writing entry points to ../../build/serveradd/serveradd.egg-info/entry_points.txt
+[0.878s] writing requirements to ../../build/serveradd/serveradd.egg-info/requires.txt
+[0.878s] writing top-level names to ../../build/serveradd/serveradd.egg-info/top_level.txt
+[0.880s] reading manifest file '../../build/serveradd/serveradd.egg-info/SOURCES.txt'
+[0.881s] writing manifest file '../../build/serveradd/serveradd.egg-info/SOURCES.txt'
+[0.881s] running build
+[0.881s] running build_py
+[0.881s] running install
+[0.881s] running install_lib
+[0.883s] running install_data
+[0.883s] running install_egg_info
+[0.884s] removing '/home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages/serveradd-0.0.0-py3.10.egg-info' (and everything under it)
+[0.885s] Copying ../../build/serveradd/serveradd.egg-info to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages/serveradd-0.0.0-py3.10.egg-info
+[0.885s] running install_scripts
+[0.908s] Installing client script to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/serveradd
+[0.909s] Installing service script to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/serveradd
+[0.909s] writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/install.log'
+[0.937s] Invoked command in '/home/shridhar/Workspaces/mrt_ws/Task2/src/serveradd' returned '0': PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serveradd build --build-base /home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/build install --record /home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/install.log --single-version-externally-managed install_data

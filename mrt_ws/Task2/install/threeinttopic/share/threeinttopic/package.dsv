@@ -1,0 +1,8 @@
+source;share/threeinttopic/hook/cmake_prefix_path.ps1
+source;share/threeinttopic/hook/cmake_prefix_path.dsv
+source;share/threeinttopic/hook/cmake_prefix_path.sh
+source;share/threeinttopic/local_setup.bash
+source;share/threeinttopic/local_setup.dsv
+source;share/threeinttopic/local_setup.ps1
+source;share/threeinttopic/local_setup.sh
+source;share/threeinttopic/local_setup.zsh

@@ -1,0 +1,33 @@
+[0.962s] Invoking command in '/home/shridhar/Workspaces/mrt_ws/Task2/src/makeexit': PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/makeexit build --build-base /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/build install --record /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/install.log --single-version-externally-managed install_data
+[1.205s] running egg_info
+[1.205s] creating ../../build/makeexit/makeexit.egg-info
+[1.205s] writing ../../build/makeexit/makeexit.egg-info/PKG-INFO
+[1.205s] writing dependency_links to ../../build/makeexit/makeexit.egg-info/dependency_links.txt
+[1.205s] writing entry points to ../../build/makeexit/makeexit.egg-info/entry_points.txt
+[1.206s] writing requirements to ../../build/makeexit/makeexit.egg-info/requires.txt
+[1.206s] writing top-level names to ../../build/makeexit/makeexit.egg-info/top_level.txt
+[1.206s] writing manifest file '../../build/makeexit/makeexit.egg-info/SOURCES.txt'
+[1.207s] reading manifest file '../../build/makeexit/makeexit.egg-info/SOURCES.txt'
+[1.208s] writing manifest file '../../build/makeexit/makeexit.egg-info/SOURCES.txt'
+[1.208s] running build
+[1.208s] running build_py
+[1.208s] creating /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/build
+[1.208s] creating /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/build/lib
+[1.208s] creating /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/build/lib/makeexit
+[1.208s] copying makeexit/__init__.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/build/lib/makeexit
+[1.208s] running install
+[1.208s] running install_lib
+[1.209s] creating /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/lib/python3.10/site-packages/makeexit
+[1.209s] copying /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/build/lib/makeexit/__init__.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/lib/python3.10/site-packages/makeexit
+[1.210s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/lib/python3.10/site-packages/makeexit/__init__.py to __init__.cpython-310.pyc
+[1.210s] running install_data
+[1.210s] creating /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/share/ament_index
+[1.210s] creating /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/share/ament_index/resource_index
+[1.210s] creating /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/share/ament_index/resource_index/packages
+[1.210s] copying resource/makeexit -> /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/share/ament_index/resource_index/packages
+[1.210s] copying package.xml -> /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/share/makeexit
+[1.210s] running install_egg_info
+[1.212s] Copying ../../build/makeexit/makeexit.egg-info to /home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/lib/python3.10/site-packages/makeexit-0.0.0-py3.10.egg-info
+[1.213s] running install_scripts
+[1.235s] writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/install.log'
+[1.265s] Invoked command in '/home/shridhar/Workspaces/mrt_ws/Task2/src/makeexit' returned '0': PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task2/install/makeexit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/makeexit build --build-base /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/build install --record /home/shridhar/Workspaces/mrt_ws/Task2/build/makeexit/install.log --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arucosrvmsg/srv/ArucoMarkers.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Polygon.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module arucosrvmsg {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct ArucoMarkers_Request {
+      sensor_msgs::msg::Image image;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct ArucoMarkers_Response {
+      sequence<int32> ids;
+
+      sequence<geometry_msgs::msg::Polygon> bounding_boxes;
+    };
+  };
+};

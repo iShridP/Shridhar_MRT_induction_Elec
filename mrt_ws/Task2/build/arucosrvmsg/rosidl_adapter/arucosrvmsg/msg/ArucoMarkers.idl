@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from arucosrvmsg/msg/ArucoMarkers.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Polygon.idl"
+
+module arucosrvmsg {
+  module msg {
+    struct ArucoMarkers {
+      sequence<int32> ids;
+
+      sequence<geometry_msgs::msg::Polygon> bounding_boxes;
+    };
+  };
+};

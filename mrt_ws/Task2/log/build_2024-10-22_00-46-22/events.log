@@ -1,0 +1,427 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (arucosrvmsg) JobQueued: {'identifier': 'arucosrvmsg', 'dependencies': OrderedDict()}
+[0.000658] (serveradd) JobQueued: {'identifier': 'serveradd', 'dependencies': OrderedDict()}
+[0.000688] (arucoserver) JobQueued: {'identifier': 'arucoserver', 'dependencies': OrderedDict([('arucosrvmsg', '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg')])}
+[0.000718] (arucosrvmsg) JobStarted: {'identifier': 'arucosrvmsg'}
+[0.007593] (serveradd) JobStarted: {'identifier': 'serveradd'}
+[0.014456] (arucosrvmsg) JobProgress: {'identifier': 'arucosrvmsg', 'progress': 'cmake'}
+[0.014801] (arucosrvmsg) Command: {'cmd': ['/usr/bin/cmake', '/home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg', '-DCMAKE_INSTALL_PREFIX=/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg'], 'cwd': '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shridhar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shridhar'), ('OLDPWD', '/home/shridhar/Workspaces/mrt_ws/Task2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2776'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shridhar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shridhar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shridhar-linux:@/tmp/.ICE-unix/2776,unix/shridhar-linux:/tmp/.ICE-unix/2776'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/78912002_7c33_4c16_a25c_23b20bfe7499'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFT9U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.6682'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099690] (-) TimerEvent: {}
+[0.146533] (arucosrvmsg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199788] (-) TimerEvent: {}
+[0.246667] (arucosrvmsg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.260878] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299972] (-) TimerEvent: {}
+[0.355579] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.364867] (arucosrvmsg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.365809] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.366489] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.370831] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400076] (-) TimerEvent: {}
+[0.475866] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.486263] (arucosrvmsg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.486686] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.487413] (arucosrvmsg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.492371] (arucosrvmsg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500160] (-) TimerEvent: {}
+[0.600494] (-) TimerEvent: {}
+[0.677909] (arucosrvmsg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.684543] (serveradd) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serveradd', 'build', '--build-base', '/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/build', 'install', '--record', '/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shridhar/Workspaces/mrt_ws/Task2/src/serveradd', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'shridhar', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shridhar', 'OLDPWD': '/home/shridhar/Workspaces/mrt_ws/Task2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2776', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shridhar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shridhar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shridhar-linux:@/tmp/.ICE-unix/2776,unix/shridhar-linux:/tmp/.ICE-unix/2776', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/78912002_7c33_4c16_a25c_23b20bfe7499', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CFT9U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.6682', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.700564] (-) TimerEvent: {}
+[0.791241] (arucosrvmsg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.800661] (-) TimerEvent: {}
+[0.834775] (arucosrvmsg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.840073] (arucosrvmsg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.849443] (arucosrvmsg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.863606] (arucosrvmsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.884247] (arucosrvmsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900780] (-) TimerEvent: {}
+[0.921037] (serveradd) StdoutLine: {'line': b'running egg_info\n'}
+[0.921679] (serveradd) StdoutLine: {'line': b'writing ../../build/serveradd/serveradd.egg-info/PKG-INFO\n'}
+[0.922120] (serveradd) StdoutLine: {'line': b'writing dependency_links to ../../build/serveradd/serveradd.egg-info/dependency_links.txt\n'}
+[0.922277] (serveradd) StdoutLine: {'line': b'writing entry points to ../../build/serveradd/serveradd.egg-info/entry_points.txt\n'}
+[0.922612] (serveradd) StdoutLine: {'line': b'writing requirements to ../../build/serveradd/serveradd.egg-info/requires.txt\n'}
+[0.922746] (serveradd) StdoutLine: {'line': b'writing top-level names to ../../build/serveradd/serveradd.egg-info/top_level.txt\n'}
+[0.924460] (serveradd) StdoutLine: {'line': b"reading manifest file '../../build/serveradd/serveradd.egg-info/SOURCES.txt'\n"}
+[0.925544] (serveradd) StdoutLine: {'line': b"writing manifest file '../../build/serveradd/serveradd.egg-info/SOURCES.txt'\n"}
+[0.925688] (serveradd) StdoutLine: {'line': b'running build\n'}
+[0.925756] (serveradd) StdoutLine: {'line': b'running build_py\n'}
+[0.926417] (serveradd) StdoutLine: {'line': b'running install\n'}
+[0.926775] (serveradd) StdoutLine: {'line': b'running install_lib\n'}
+[0.928123] (serveradd) StdoutLine: {'line': b'running install_data\n'}
+[0.928471] (serveradd) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.930201] (serveradd) StdoutLine: {'line': b"removing '/home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages/serveradd-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.930540] (serveradd) StdoutLine: {'line': b'Copying ../../build/serveradd/serveradd.egg-info to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/python3.10/site-packages/serveradd-0.0.0-py3.10.egg-info\n'}
+[0.931205] (serveradd) StdoutLine: {'line': b'running install_scripts\n'}
+[0.933726] (arucosrvmsg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.953720] (serveradd) StdoutLine: {'line': b'Installing client script to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/serveradd\n'}
+[0.954190] (serveradd) StdoutLine: {'line': b'Installing service script to /home/shridhar/Workspaces/mrt_ws/Task2/install/serveradd/lib/serveradd\n'}
+[0.954334] (serveradd) StdoutLine: {'line': b"writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task2/build/serveradd/install.log'\n"}
+[0.955258] (arucosrvmsg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.964788] (arucosrvmsg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.978304] (serveradd) CommandEnded: {'returncode': 0}
+[0.979512] (arucosrvmsg) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.990995] (serveradd) JobEnded: {'identifier': 'serveradd', 'rc': 0}
+[1.000862] (-) TimerEvent: {}
+[1.101169] (-) TimerEvent: {}
+[1.201576] (-) TimerEvent: {}
+[1.301999] (-) TimerEvent: {}
+[1.345362] (arucosrvmsg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.402105] (-) TimerEvent: {}
+[1.502489] (-) TimerEvent: {}
+[1.602937] (-) TimerEvent: {}
+[1.703361] (-) TimerEvent: {}
+[1.803752] (-) TimerEvent: {}
+[1.903842] (arucosrvmsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.904152] (-) TimerEvent: {}
+[2.004466] (-) TimerEvent: {}
+[2.104885] (-) TimerEvent: {}
+[2.124188] (arucosrvmsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.156810] (arucosrvmsg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.159430] (arucosrvmsg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.195804] (arucosrvmsg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.196017] (arucosrvmsg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.196178] (arucosrvmsg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.196280] (arucosrvmsg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.204978] (-) TimerEvent: {}
+[2.223914] (arucosrvmsg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.305128] (-) TimerEvent: {}
+[2.308815] (arucosrvmsg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.333752] (arucosrvmsg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.335269] (arucosrvmsg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.338092] (arucosrvmsg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.376201] (arucosrvmsg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.378412] (arucosrvmsg) StdoutLine: {'line': b'-- Build files have been written to: /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg\n'}
+[2.389247] (arucosrvmsg) CommandEnded: {'returncode': 0}
+[2.392451] (arucosrvmsg) JobProgress: {'identifier': 'arucosrvmsg', 'progress': 'build'}
+[2.392992] (arucosrvmsg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg', '--', '-j22', '-l22'], 'cwd': '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shridhar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shridhar'), ('OLDPWD', '/home/shridhar/Workspaces/mrt_ws/Task2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2776'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shridhar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shridhar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shridhar-linux:@/tmp/.ICE-unix/2776,unix/shridhar-linux:/tmp/.ICE-unix/2776'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/78912002_7c33_4c16_a25c_23b20bfe7499'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFT9U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.6682'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.405210] (-) TimerEvent: {}
+[2.446330] (arucosrvmsg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.459055] (arucosrvmsg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.470659] (arucosrvmsg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_arucosrvmsg\n'}
+[2.505362] (-) TimerEvent: {}
+[2.605751] (-) TimerEvent: {}
+[2.706164] (-) TimerEvent: {}
+[2.719281] (arucosrvmsg) StdoutLine: {'line': b'running egg_info\n'}
+[2.719836] (arucosrvmsg) StdoutLine: {'line': b'creating arucosrvmsg.egg-info\n'}
+[2.720220] (arucosrvmsg) StdoutLine: {'line': b'writing arucosrvmsg.egg-info/PKG-INFO\n'}
+[2.720361] (arucosrvmsg) StdoutLine: {'line': b'writing dependency_links to arucosrvmsg.egg-info/dependency_links.txt\n'}
+[2.720452] (arucosrvmsg) StdoutLine: {'line': b'writing top-level names to arucosrvmsg.egg-info/top_level.txt\n'}
+[2.720754] (arucosrvmsg) StdoutLine: {'line': b"writing manifest file 'arucosrvmsg.egg-info/SOURCES.txt'\n"}
+[2.722153] (arucosrvmsg) StdoutLine: {'line': b"reading manifest file 'arucosrvmsg.egg-info/SOURCES.txt'\n"}
+[2.722684] (arucosrvmsg) StdoutLine: {'line': b"writing manifest file 'arucosrvmsg.egg-info/SOURCES.txt'\n"}
+[2.755605] (arucosrvmsg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_arucosrvmsg_egg\n'}
+[2.800060] (arucosrvmsg) StdoutLine: {'line': b'[  5%] Built target arucosrvmsg__cpp\n'}
+[2.806320] (-) TimerEvent: {}
+[2.811479] (arucosrvmsg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.813455] (arucosrvmsg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.813709] (arucosrvmsg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.825267] (arucosrvmsg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_c.dir/rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__functions.c.o\x1b[0m\n'}
+[2.825586] (arucosrvmsg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_c.dir/rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__functions.c.o\x1b[0m\n'}
+[2.906446] (-) TimerEvent: {}
+[2.912543] (arucosrvmsg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libarucosrvmsg__rosidl_generator_c.so\x1b[0m\n'}
+[2.964292] (arucosrvmsg) StdoutLine: {'line': b'[ 20%] Built target arucosrvmsg__rosidl_generator_c\n'}
+[2.976918] (arucosrvmsg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.977264] (arucosrvmsg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.977497] (arucosrvmsg) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.006593] (-) TimerEvent: {}
+[3.107045] (-) TimerEvent: {}
+[3.117333] (arucosrvmsg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arucosrvmsg/srv/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.117663] (arucosrvmsg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arucosrvmsg/msg/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.131667] (arucosrvmsg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arucosrvmsg/srv/detail/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.131921] (arucosrvmsg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arucosrvmsg/msg/detail/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.155178] (arucosrvmsg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arucosrvmsg/msg/detail/dds_fastrtps/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.156209] (arucosrvmsg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arucosrvmsg/srv/detail/dds_fastrtps/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.207202] (-) TimerEvent: {}
+[3.288641] (arucosrvmsg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/arucosrvmsg/srv/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.289063] (arucosrvmsg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/arucosrvmsg/msg/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.303095] (arucosrvmsg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arucosrvmsg/srv/detail/aruco_markers__type_support.c.o\x1b[0m\n'}
+[3.305963] (arucosrvmsg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arucosrvmsg/msg/detail/aruco_markers__type_support.c.o\x1b[0m\n'}
+[3.307296] (-) TimerEvent: {}
+[3.333386] (arucosrvmsg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arucosrvmsg/msg/detail/aruco_markers__type_support_c.cpp.o\x1b[0m\n'}
+[3.333961] (arucosrvmsg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arucosrvmsg/srv/detail/aruco_markers__type_support_c.cpp.o\x1b[0m\n'}
+[3.338301] (arucosrvmsg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.354088] (arucosrvmsg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libarucosrvmsg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.394093] (arucosrvmsg) StdoutLine: {'line': b'[ 64%] Built target arucosrvmsg__rosidl_typesupport_c\n'}
+[3.397380] (arucosrvmsg) StdoutLine: {'line': b'[ 64%] Built target arucosrvmsg__rosidl_typesupport_introspection_c\n'}
+[3.407425] (-) TimerEvent: {}
+[3.475000] (arucosrvmsg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.507627] (-) TimerEvent: {}
+[3.535102] (arucosrvmsg) StdoutLine: {'line': b'[ 66%] Built target arucosrvmsg__rosidl_typesupport_cpp\n'}
+[3.607812] (-) TimerEvent: {}
+[3.684818] (arucosrvmsg) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.707986] (-) TimerEvent: {}
+[3.775162] (arucosrvmsg) StdoutLine: {'line': b'[ 69%] Built target arucosrvmsg__rosidl_typesupport_fastrtps_c\n'}
+[3.777242] (arucosrvmsg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.785293] (arucosrvmsg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.808169] (-) TimerEvent: {}
+[3.870660] (arucosrvmsg) StdoutLine: {'line': b'[ 74%] Built target arucosrvmsg__rosidl_typesupport_introspection_cpp\n'}
+[3.880320] (arucosrvmsg) StdoutLine: {'line': b'[ 74%] Built target arucosrvmsg__rosidl_typesupport_fastrtps_cpp\n'}
+[3.900264] (arucosrvmsg) StdoutLine: {'line': b'[ 74%] Built target arucosrvmsg\n'}
+[3.908270] (-) TimerEvent: {}
+[3.924347] (arucosrvmsg) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.008435] (-) TimerEvent: {}
+[4.108858] (-) TimerEvent: {}
+[4.209323] (-) TimerEvent: {}
+[4.309755] (-) TimerEvent: {}
+[4.410229] (-) TimerEvent: {}
+[4.411840] (arucosrvmsg) StdoutLine: {'line': b'[ 76%] Built target arucosrvmsg__py\n'}
+[4.437050] (arucosrvmsg) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_py.dir/rosidl_generator_py/arucosrvmsg/msg/_aruco_markers_s.c.o\x1b[0m\n'}
+[4.437474] (arucosrvmsg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_py.dir/rosidl_generator_py/arucosrvmsg/srv/_aruco_markers_s.c.o\x1b[0m\n'}
+[4.510452] (-) TimerEvent: {}
+[4.585927] (arucosrvmsg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arucosrvmsg/libarucosrvmsg__rosidl_generator_py.so\x1b[0m\n'}
+[4.610577] (-) TimerEvent: {}
+[4.641594] (arucosrvmsg) StdoutLine: {'line': b'[ 84%] Built target arucosrvmsg__rosidl_generator_py\n'}
+[4.667855] (arucosrvmsg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.668191] (arucosrvmsg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.668328] (arucosrvmsg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.710736] (-) TimerEvent: {}
+[4.786468] (arucosrvmsg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.786785] (arucosrvmsg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.789186] (arucosrvmsg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.810870] (-) TimerEvent: {}
+[4.836719] (arucosrvmsg) StdoutLine: {'line': b'[100%] Built target arucosrvmsg__rosidl_typesupport_c__pyext\n'}
+[4.837126] (arucosrvmsg) StdoutLine: {'line': b'[100%] Built target arucosrvmsg__rosidl_typesupport_introspection_c__pyext\n'}
+[4.837419] (arucosrvmsg) StdoutLine: {'line': b'[100%] Built target arucosrvmsg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.854312] (arucosrvmsg) CommandEnded: {'returncode': 0}
+[4.910939] (-) TimerEvent: {}
+[4.935193] (arucosrvmsg) JobProgress: {'identifier': 'arucosrvmsg', 'progress': 'install'}
+[4.948355] (arucosrvmsg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg'], 'cwd': '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shridhar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shridhar'), ('OLDPWD', '/home/shridhar/Workspaces/mrt_ws/Task2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2776'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shridhar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shridhar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shridhar-linux:@/tmp/.ICE-unix/2776,unix/shridhar-linux:/tmp/.ICE-unix/2776'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/78912002_7c33_4c16_a25c_23b20bfe7499'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFT9U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.6682'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.958822] (arucosrvmsg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.959277] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/ament_index/resource_index/rosidl_interfaces/arucosrvmsg\n'}
+[4.959430] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg\n'}
+[4.959503] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv\n'}
+[4.959844] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/aruco_markers.h\n'}
+[4.959989] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail\n'}
+[4.960064] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__functions.c\n'}
+[4.960440] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__functions.h\n'}
+[4.960539] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__type_support.h\n'}
+[4.960640] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__struct.h\n'}
+[4.960701] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg\n'}
+[4.960759] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.960815] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/aruco_markers.h\n'}
+[4.960871] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail\n'}
+[4.960925] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__functions.c\n'}
+[4.960989] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__functions.h\n'}
+[4.961048] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__type_support.h\n'}
+[4.961120] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__struct.h\n'}
+[4.961182] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/library_path.sh\n'}
+[4.961240] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/library_path.dsv\n'}
+[4.961300] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_c.so\n'}
+[4.961582] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_c.so" to ""\n'}
+[4.961731] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg\n'}
+[4.961808] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv\n'}
+[4.961874] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail\n'}
+[4.961938] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h\n'}
+[4.962053] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg\n'}
+[4.962182] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.962248] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail\n'}
+[4.962308] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h\n'}
+[4.962368] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_c.so\n'}
+[4.962428] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.962489] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg\n'}
+[4.962547] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv\n'}
+[4.962606] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail\n'}
+[4.962664] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__struct.hpp\n'}
+[4.962722] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__builder.hpp\n'}
+[4.962782] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__traits.hpp\n'}
+[4.963011] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/aruco_markers.hpp\n'}
+[4.963255] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg\n'}
+[4.963336] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail\n'}
+[4.963409] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__struct.hpp\n'}
+[4.963479] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__builder.hpp\n'}
+[4.963547] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__traits.hpp\n'}
+[4.963617] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/aruco_markers.hpp\n'}
+[4.963690] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg\n'}
+[4.963758] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv\n'}
+[4.963824] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail\n'}
+[4.963892] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.963959] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/dds_fastrtps\n'}
+[4.964027] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg\n'}
+[4.964102] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.964174] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail\n'}
+[4.964239] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.964358] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/dds_fastrtps\n'}
+[4.964504] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.964575] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.964673] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg\n'}
+[4.964736] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv\n'}
+[4.964795] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail\n'}
+[4.964852] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__type_support.c\n'}
+[4.964910] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__rosidl_typesupport_introspection_c.h\n'}
+[4.964971] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg\n'}
+[4.965034] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail\n'}
+[4.965107] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__type_support.c\n'}
+[4.965174] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h\n'}
+[4.965237] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.965306] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_c.so\n'}
+[4.965395] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.965522] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_c.so\n'}
+[4.965582] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_c.so" to ""\n'}
+[4.965644] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg\n'}
+[4.965707] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv\n'}
+[4.965769] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail\n'}
+[4.965830] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.965890] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/aruco_markers__type_support.cpp\n'}
+[4.965992] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg\n'}
+[4.966053] (arucosrvmsg) StdoutLine: {'line': b'-- Up-to-date: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail\n'}
+[4.966123] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.966180] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/aruco_markers__type_support.cpp\n'}
+[4.966235] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_cpp.so\n'}
+[4.966330] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.966390] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_cpp.so\n'}
+[4.966532] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_cpp.so" to ""\n'}
+[4.966611] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/pythonpath.sh\n'}
+[4.966694] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/pythonpath.dsv\n'}
+[4.966781] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info\n'}
+[4.966925] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.967018] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.967110] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.967202] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.967320] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg\n'}
+[4.967399] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/libarucosrvmsg__rosidl_generator_py.so\n'}
+[4.967514] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv\n'}
+[4.967594] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/_aruco_markers_s.c\n'}
+[4.967679] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/_aruco_markers.py\n'}
+[4.967756] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/__init__.py\n'}
+[4.967836] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c\n'}
+[4.967915] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.968005] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.968098] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.968195] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg\n'}
+[4.968276] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/_aruco_markers_s.c\n'}
+[4.968354] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/_aruco_markers.py\n'}
+[4.968433] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/__init__.py\n'}
+[4.968508] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.968590] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/__init__.py\n'}
+[4.968670] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.010996] (-) TimerEvent: {}
+[5.012647] (arucosrvmsg) StdoutLine: {'line': b"Listing '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg'...\n"}
+[5.012766] (arucosrvmsg) StdoutLine: {'line': b"Compiling '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/__init__.py'...\n"}
+[5.012832] (arucosrvmsg) StdoutLine: {'line': b"Listing '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg'...\n"}
+[5.012890] (arucosrvmsg) StdoutLine: {'line': b"Compiling '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/__init__.py'...\n"}
+[5.012944] (arucosrvmsg) StdoutLine: {'line': b"Compiling '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/_aruco_markers.py'...\n"}
+[5.012995] (arucosrvmsg) StdoutLine: {'line': b"Listing '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv'...\n"}
+[5.013049] (arucosrvmsg) StdoutLine: {'line': b"Compiling '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/__init__.py'...\n"}
+[5.013110] (arucosrvmsg) StdoutLine: {'line': b"Compiling '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/_aruco_markers.py'...\n"}
+[5.017117] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.017510] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.017638] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.017850] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.017987] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.018222] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.018293] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_py.so\n'}
+[5.018505] (arucosrvmsg) StdoutLine: {'line': b'-- Set runtime path of "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_py.so" to ""\n'}
+[5.018611] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/msg/ArucoMarkers.idl\n'}
+[5.018715] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/srv/ArucoMarkers.idl\n'}
+[5.018819] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/msg/ArucoMarkers.msg\n'}
+[5.018925] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/srv/ArucoMarkers.srv\n'}
+[5.019034] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/srv/ArucoMarkers_Request.msg\n'}
+[5.019108] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/srv/ArucoMarkers_Response.msg\n'}
+[5.019197] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/ament_index/resource_index/package_run_dependencies/arucosrvmsg\n'}
+[5.019292] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/ament_index/resource_index/parent_prefix_path/arucosrvmsg\n'}
+[5.019385] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/ament_prefix_path.sh\n'}
+[5.019473] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/ament_prefix_path.dsv\n'}
+[5.019558] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/path.sh\n'}
+[5.019648] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/environment/path.dsv\n'}
+[5.019732] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/local_setup.bash\n'}
+[5.019821] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/local_setup.sh\n'}
+[5.019923] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/local_setup.zsh\n'}
+[5.020014] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/local_setup.dsv\n'}
+[5.020093] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/package.dsv\n'}
+[5.020220] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/ament_index/resource_index/packages/arucosrvmsg\n'}
+[5.020357] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_cExport.cmake\n'}
+[5.020452] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.020562] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.020662] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.020761] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_cppExport.cmake\n'}
+[5.020856] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.020955] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.021050] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.021144] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.021245] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cExport.cmake\n'}
+[5.021341] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.021456] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.021561] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.021673] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cppExport.cmake\n'}
+[5.021764] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.021858] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_pyExport.cmake\n'}
+[5.021947] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.022038] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/rosidl_cmake-extras.cmake\n'}
+[5.022126] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.022225] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.022316] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.022402] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.022487] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.022571] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.022662] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsgConfig.cmake\n'}
+[5.022749] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsgConfig-version.cmake\n'}
+[5.022844] (arucosrvmsg) StdoutLine: {'line': b'-- Installing: /home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/share/arucosrvmsg/package.xml\n'}
+[5.025794] (arucosrvmsg) CommandEnded: {'returncode': 0}
+[5.111117] (-) TimerEvent: {}
+[5.128881] (arucosrvmsg) JobEnded: {'identifier': 'arucosrvmsg', 'rc': 0}
+[5.129556] (arucoserver) JobStarted: {'identifier': 'arucoserver'}
+[5.211243] (-) TimerEvent: {}
+[5.311660] (-) TimerEvent: {}
+[5.412008] (-) TimerEvent: {}
+[5.512440] (-) TimerEvent: {}
+[5.612949] (-) TimerEvent: {}
+[5.713378] (-) TimerEvent: {}
+[5.795360] (arucoserver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arucoserver', 'build', '--build-base', '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build', 'install', '--record', '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shridhar/Workspaces/mrt_ws/Task2/src/arucoserver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'shridhar', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shridhar', 'OLDPWD': '/home/shridhar/Workspaces/mrt_ws/Task2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2776', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shridhar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shridhar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shridhar-linux:@/tmp/.ICE-unix/2776,unix/shridhar-linux:/tmp/.ICE-unix/2776', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/78912002_7c33_4c16_a25c_23b20bfe7499', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CFT9U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.6682', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e76921d9a6f3f91ffef951ff670e07d3', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages:/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg'}, 'shell': False}
+[5.813467] (-) TimerEvent: {}
+[5.913791] (-) TimerEvent: {}
+[6.014202] (-) TimerEvent: {}
+[6.040507] (arucoserver) StdoutLine: {'line': b'running egg_info\n'}
+[6.040969] (arucoserver) StdoutLine: {'line': b'creating ../../build/arucoserver/arucoserver.egg-info\n'}
+[6.041410] (arucoserver) StdoutLine: {'line': b'writing ../../build/arucoserver/arucoserver.egg-info/PKG-INFO\n'}
+[6.041557] (arucoserver) StdoutLine: {'line': b'writing dependency_links to ../../build/arucoserver/arucoserver.egg-info/dependency_links.txt\n'}
+[6.041792] (arucoserver) StdoutLine: {'line': b'writing entry points to ../../build/arucoserver/arucoserver.egg-info/entry_points.txt\n'}
+[6.041922] (arucoserver) StdoutLine: {'line': b'writing requirements to ../../build/arucoserver/arucoserver.egg-info/requires.txt\n'}
+[6.042011] (arucoserver) StdoutLine: {'line': b'writing top-level names to ../../build/arucoserver/arucoserver.egg-info/top_level.txt\n'}
+[6.042102] (arucoserver) StdoutLine: {'line': b"writing manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'\n"}
+[6.043416] (arucoserver) StdoutLine: {'line': b"reading manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'\n"}
+[6.044268] (arucoserver) StdoutLine: {'line': b"writing manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'\n"}
+[6.044434] (arucoserver) StdoutLine: {'line': b'running build\n'}
+[6.044512] (arucoserver) StdoutLine: {'line': b'running build_py\n'}
+[6.044736] (arucoserver) StdoutLine: {'line': b'creating /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build\n'}
+[6.044892] (arucoserver) StdoutLine: {'line': b'creating /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib\n'}
+[6.044961] (arucoserver) StdoutLine: {'line': b'creating /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver\n'}
+[6.045020] (arucoserver) StdoutLine: {'line': b'copying arucoserver/service.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver\n'}
+[6.045084] (arucoserver) StdoutLine: {'line': b'copying arucoserver/__init__.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver\n'}
+[6.045148] (arucoserver) StdoutLine: {'line': b'copying arucoserver/webcam.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver\n'}
+[6.045211] (arucoserver) StdoutLine: {'line': b'copying arucoserver/client.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver\n'}
+[6.045269] (arucoserver) StdoutLine: {'line': b'copying arucoserver/videoserver.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver\n'}
+[6.045328] (arucoserver) StdoutLine: {'line': b'copying arucoserver/servicetest.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver\n'}
+[6.045386] (arucoserver) StdoutLine: {'line': b'running install\n'}
+[6.045495] (arucoserver) StdoutLine: {'line': b'running install_lib\n'}
+[6.046060] (arucoserver) StdoutLine: {'line': b'creating /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver\n'}
+[6.046261] (arucoserver) StdoutLine: {'line': b'copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/service.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver\n'}
+[6.046363] (arucoserver) StdoutLine: {'line': b'copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/__init__.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver\n'}
+[6.046429] (arucoserver) StdoutLine: {'line': b'copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/webcam.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver\n'}
+[6.046491] (arucoserver) StdoutLine: {'line': b'copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/client.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver\n'}
+[6.046604] (arucoserver) StdoutLine: {'line': b'copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/videoserver.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver\n'}
+[6.046697] (arucoserver) StdoutLine: {'line': b'copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/servicetest.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver\n'}
+[6.046963] (arucoserver) StdoutLine: {'line': b'byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/service.py to service.cpython-310.pyc\n'}
+[6.047634] (arucoserver) StdoutLine: {'line': b'byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/__init__.py to __init__.cpython-310.pyc\n'}
+[6.047791] (arucoserver) StdoutLine: {'line': b'byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/webcam.py to webcam.cpython-310.pyc\n'}
+[6.048519] (arucoserver) StdoutLine: {'line': b'byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/client.py to client.cpython-310.pyc\n'}
+[6.049071] (arucoserver) StdoutLine: {'line': b'byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/videoserver.py to videoserver.cpython-310.pyc\n'}
+[6.049767] (arucoserver) StdoutLine: {'line': b'byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/servicetest.py to servicetest.cpython-310.pyc\n'}
+[6.050241] (arucoserver) StdoutLine: {'line': b'running install_data\n'}
+[6.050379] (arucoserver) StdoutLine: {'line': b'creating /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/share/ament_index\n'}
+[6.050457] (arucoserver) StdoutLine: {'line': b'creating /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/share/ament_index/resource_index\n'}
+[6.050755] (arucoserver) StdoutLine: {'line': b'creating /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/share/ament_index/resource_index/packages\n'}
+[6.050842] (arucoserver) StdoutLine: {'line': b'copying resource/arucoserver -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/share/ament_index/resource_index/packages\n'}
+[6.050905] (arucoserver) StdoutLine: {'line': b'copying package.xml -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/share/arucoserver\n'}
+[6.050962] (arucoserver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.053350] (arucoserver) StdoutLine: {'line': b'Copying ../../build/arucoserver/arucoserver.egg-info to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info\n'}
+[6.053985] (arucoserver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.075278] (arucoserver) StdoutLine: {'line': b'Installing client script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver\n'}
+[6.075478] (arucoserver) StdoutLine: {'line': b'Installing service script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver\n'}
+[6.075618] (arucoserver) StdoutLine: {'line': b'Installing testaruco script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver\n'}
+[6.075679] (arucoserver) StdoutLine: {'line': b'Installing videoaruco script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver\n'}
+[6.075731] (arucoserver) StdoutLine: {'line': b'Installing webcam script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver\n'}
+[6.075831] (arucoserver) StdoutLine: {'line': b"writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/install.log'\n"}
+[6.101061] (arucoserver) CommandEnded: {'returncode': 0}
+[6.107001] (arucoserver) JobEnded: {'identifier': 'arucoserver', 'rc': 0}
+[6.107949] (-) EventReactorShutdown: {}

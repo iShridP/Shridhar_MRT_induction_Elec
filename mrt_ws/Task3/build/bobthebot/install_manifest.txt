@@ -1,0 +1,15 @@
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/ament_index/resource_index/package_run_dependencies/bobthebot
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/ament_index/resource_index/parent_prefix_path/bobthebot
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/environment/ament_prefix_path.sh
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/environment/ament_prefix_path.dsv
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/environment/path.sh
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/environment/path.dsv
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/local_setup.bash
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/local_setup.sh
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/local_setup.zsh
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/local_setup.dsv
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/package.dsv
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/ament_index/resource_index/packages/bobthebot
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/cmake/bobthebotConfig.cmake
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/cmake/bobthebotConfig-version.cmake
+/home/shridhar/Workspaces/mrt_ws/Task3/install/bobthebot/share/bobthebot/package.xml

@@ -1,0 +1,8 @@
+source;share/bobthebot/hook/cmake_prefix_path.ps1
+source;share/bobthebot/hook/cmake_prefix_path.dsv
+source;share/bobthebot/hook/cmake_prefix_path.sh
+source;share/bobthebot/local_setup.bash
+source;share/bobthebot/local_setup.dsv
+source;share/bobthebot/local_setup.ps1
+source;share/bobthebot/local_setup.sh
+source;share/bobthebot/local_setup.zsh
