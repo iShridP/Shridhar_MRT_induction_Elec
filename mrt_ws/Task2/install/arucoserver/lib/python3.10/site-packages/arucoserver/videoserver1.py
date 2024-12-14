@@ -65,7 +65,7 @@ i = 1
 
 def main():
     createImagePath()
-    rclpy.init(args=args)
+    rclpy.init()
     send_all_images()
     rclpy.shutdown()
 
