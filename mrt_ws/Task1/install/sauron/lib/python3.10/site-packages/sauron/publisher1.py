@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rclpy
-from std_msgs.msg import String
+from std_msgs.msg import String #std_msgs is message package. std_msgs.msg has message String containing string type field data.
 
 def timer_callback(timer, i):
     # Create a String message

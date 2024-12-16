@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arucosrvmsg/srv/Service.srv
+// generated code does not contain a copyright notice
+
+#include "arucosrvmsg/msg/Markers.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module arucosrvmsg {
+  module srv {
+    struct Service_Request {
+      sensor_msgs::msg::Image image;
+    };
+    struct Service_Response {
+      arucosrvmsg::msg::Markers markers;
+    };
+  };
+};

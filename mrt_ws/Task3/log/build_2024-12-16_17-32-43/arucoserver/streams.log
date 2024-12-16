@@ -1,0 +1,39 @@
+[0.646s] Invoking command in '/home/shridhar/Workspaces/mrt_ws/Task3/src/arucoserver': AMENT_PREFIX_PATH=/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shridhar/Workspaces/mrt_ws/Task3/install/arucosrvmsg LD_LIBRARY_PATH=/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib:/home/shridhar/Workspaces/mrt_ws/Task3/install/arucosrvmsg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages:/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoserver build --build-base /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build install --record /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/install.log --single-version-externally-managed install_data
+[0.888s] running egg_info
+[0.889s] writing ../../build/arucoserver/arucoserver.egg-info/PKG-INFO
+[0.889s] writing dependency_links to ../../build/arucoserver/arucoserver.egg-info/dependency_links.txt
+[0.889s] writing entry points to ../../build/arucoserver/arucoserver.egg-info/entry_points.txt
+[0.889s] writing requirements to ../../build/arucoserver/arucoserver.egg-info/requires.txt
+[0.889s] writing top-level names to ../../build/arucoserver/arucoserver.egg-info/top_level.txt
+[0.891s] reading manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'
+[0.892s] writing manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'
+[0.892s] running build
+[0.892s] running build_py
+[0.892s] copying arucoserver/findWebcam.py -> /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver
+[0.892s] copying arucoserver/webcam_client.py -> /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver
+[0.892s] copying arucoserver/service.py -> /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver
+[0.892s] copying arucoserver/video_client.py -> /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver
+[0.892s] copying arucoserver/image_client.py -> /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver
+[0.892s] running install
+[0.893s] running install_lib
+[0.893s] copying /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver/findWebcam.py -> /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver
+[0.894s] copying /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver/webcam_client.py -> /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver
+[0.894s] copying /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver/service.py -> /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver
+[0.894s] copying /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver/video_client.py -> /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver
+[0.894s] copying /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build/lib/arucoserver/image_client.py -> /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver
+[0.894s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver/findWebcam.py to findWebcam.cpython-310.pyc
+[0.895s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver/webcam_client.py to webcam_client.cpython-310.pyc
+[0.895s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver/service.py to service.cpython-310.pyc
+[0.896s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver/video_client.py to video_client.cpython-310.pyc
+[0.897s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver/image_client.py to image_client.cpython-310.pyc
+[0.897s] running install_data
+[0.897s] running install_egg_info
+[0.900s] removing '/home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info' (and everything under it)
+[0.901s] Copying ../../build/arucoserver/arucoserver.egg-info to /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info
+[0.901s] running install_scripts
+[0.923s] Installing imageclient script to /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/arucoserver
+[0.924s] Installing service script to /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/arucoserver
+[0.924s] Installing videoclient script to /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/arucoserver
+[0.924s] Installing webcamclient script to /home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/arucoserver
+[0.924s] writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/install.log'
+[0.953s] Invoked command in '/home/shridhar/Workspaces/mrt_ws/Task3/src/arucoserver' returned '0': AMENT_PREFIX_PATH=/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shridhar/Workspaces/mrt_ws/Task3/install/arucosrvmsg LD_LIBRARY_PATH=/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib:/home/shridhar/Workspaces/mrt_ws/Task3/install/arucosrvmsg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver/lib/python3.10/site-packages:/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoserver build --build-base /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/build install --record /home/shridhar/Workspaces/mrt_ws/Task3/build/arucoserver/install.log --single-version-externally-managed install_data

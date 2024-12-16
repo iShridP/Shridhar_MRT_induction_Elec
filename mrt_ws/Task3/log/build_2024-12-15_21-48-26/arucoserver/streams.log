@@ -1,0 +1,25 @@
+[0.637s] Invoking command in '/home/shridhar/Documents/ROSrevision/Task4/src/arucoserver': PYTHONPATH=/home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoserver build --build-base /home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/build install --record /home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/install.log --single-version-externally-managed install_data
+[0.875s] running egg_info
+[0.875s] writing ../../build/arucoserver/arucoserver.egg-info/PKG-INFO
+[0.876s] writing dependency_links to ../../build/arucoserver/arucoserver.egg-info/dependency_links.txt
+[0.876s] writing entry points to ../../build/arucoserver/arucoserver.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../build/arucoserver/arucoserver.egg-info/requires.txt
+[0.876s] writing top-level names to ../../build/arucoserver/arucoserver.egg-info/top_level.txt
+[0.878s] reading manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'
+[0.879s] writing manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'
+[0.879s] running build
+[0.879s] running build_py
+[0.879s] copying arucoserver/image_client.py -> /home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/build/lib/arucoserver
+[0.879s] running install
+[0.879s] running install_lib
+[0.880s] copying /home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/build/lib/arucoserver/image_client.py -> /home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/python3.10/site-packages/arucoserver
+[0.881s] byte-compiling /home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/python3.10/site-packages/arucoserver/image_client.py to image_client.cpython-310.pyc
+[0.882s] running install_data
+[0.882s] running install_egg_info
+[0.884s] removing '/home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info' (and everything under it)
+[0.884s] Copying ../../build/arucoserver/arucoserver.egg-info to /home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info
+[0.885s] running install_scripts
+[0.906s] Installing imageclient script to /home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/arucoserver
+[0.906s] Installing service script to /home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/arucoserver
+[0.906s] writing list of installed files to '/home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/install.log'
+[0.932s] Invoked command in '/home/shridhar/Documents/ROSrevision/Task4/src/arucoserver' returned '0': PYTHONPATH=/home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Documents/ROSrevision/Task4/install/arucoserver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoserver build --build-base /home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/build install --record /home/shridhar/Documents/ROSrevision/Task4/build/arucoserver/install.log --single-version-externally-managed install_data

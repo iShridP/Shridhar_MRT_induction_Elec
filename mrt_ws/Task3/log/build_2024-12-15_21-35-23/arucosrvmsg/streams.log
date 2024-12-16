@@ -1,0 +1,264 @@
+[0.014s] Invoking command in '/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shridhar/Documents/ROSrevision/Task4/install/arucoserver:/home/shridhar/Documents/ROSrevision/Task3/install/hypo:/home/shridhar/Documents/ROSrevision/Task3/install/hypotopic:/opt/ros/humble /usr/bin/cmake --build /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg -- -j22 -l22
+[0.047s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.677s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.518s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.552s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.552s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.552s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.605s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.613s] -- Added test 'lint_cmake' to check CMake code style
+[1.614s] -- Added test 'xmllint' to check XML markup files
+[1.616s] -- Configuring done
+[1.653s] -- Generating done
+[1.655s] -- Build files have been written to: /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg
+[1.690s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.700s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.713s] [  5%] Built target ament_cmake_python_copy_arucosrvmsg
+[1.960s] running egg_info
+[1.961s] writing arucosrvmsg.egg-info/PKG-INFO
+[1.961s] writing dependency_links to arucosrvmsg.egg-info/dependency_links.txt
+[1.961s] writing top-level names to arucosrvmsg.egg-info/top_level.txt
+[1.964s] reading manifest file 'arucosrvmsg.egg-info/SOURCES.txt'
+[1.965s] writing manifest file 'arucosrvmsg.egg-info/SOURCES.txt'
+[2.000s] [  5%] Built target ament_cmake_python_build_arucosrvmsg_egg
+[2.029s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_generator_c[0m
+[2.041s] [  7%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_c.dir/rosidl_generator_c/arucosrvmsg/msg/detail/markers__functions.c.o[0m
+[2.041s] [  7%] Built target arucosrvmsg__cpp
+[2.042s] [ 10%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_c.dir/rosidl_generator_c/arucosrvmsg/srv/detail/service__functions.c.o[0m
+[2.053s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.054s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.054s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.113s] [ 20%] [32m[1mLinking C shared library libarucosrvmsg__rosidl_generator_c.so[0m
+[2.156s] [ 20%] Built target arucosrvmsg__rosidl_generator_c
+[2.169s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.169s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.169s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.313s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_cpp[0m
+[2.327s] [ 30%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arucosrvmsg/srv/service__type_support.cpp.o[0m
+[2.330s] [ 33%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arucosrvmsg/msg/markers__type_support.cpp.o[0m
+[2.336s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_introspection_cpp[0m
+[2.356s] [ 38%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arucosrvmsg/msg/detail/markers__type_support.cpp.o[0m
+[2.356s] [ 38%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arucosrvmsg/srv/detail/service__type_support.cpp.o[0m
+[2.368s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_fastrtps_cpp[0m
+[2.383s] [ 41%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arucosrvmsg/srv/detail/dds_fastrtps/service__type_support.cpp.o[0m
+[2.386s] [ 43%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arucosrvmsg/msg/detail/dds_fastrtps/markers__type_support.cpp.o[0m
+[2.463s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_introspection_c[0m
+[2.474s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_fastrtps_c[0m
+[2.476s] [ 46%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arucosrvmsg/msg/detail/markers__type_support.c.o[0m
+[2.478s] [ 48%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arucosrvmsg/srv/detail/service__type_support.c.o[0m
+[2.491s] [ 51%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arucosrvmsg/srv/detail/service__type_support_c.cpp.o[0m
+[2.492s] [ 53%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arucosrvmsg/msg/detail/markers__type_support_c.cpp.o[0m
+[2.519s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_c[0m
+[2.530s] [ 58%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/arucosrvmsg/srv/service__type_support.cpp.o[0m
+[2.531s] [ 58%] [32mBuilding CXX object CMakeFiles/arucosrvmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/arucosrvmsg/msg/markers__type_support.cpp.o[0m
+[2.531s] [ 61%] [32m[1mLinking C shared library libarucosrvmsg__rosidl_typesupport_introspection_c.so[0m
+[2.568s] [ 64%] [32m[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_c.so[0m
+[2.570s] [ 64%] Built target arucosrvmsg__rosidl_typesupport_introspection_c
+[2.618s] [ 64%] Built target arucosrvmsg__rosidl_typesupport_c
+[2.646s] [ 66%] [32m[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_cpp.so[0m
+[2.696s] [ 66%] Built target arucosrvmsg__rosidl_typesupport_cpp
+[2.853s] [ 69%] [32m[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_fastrtps_c.so[0m
+[2.885s] [ 71%] [32m[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_introspection_cpp.so[0m
+[2.939s] [ 71%] Built target arucosrvmsg__rosidl_typesupport_fastrtps_c
+[2.979s] [ 71%] Built target arucosrvmsg__rosidl_typesupport_introspection_cpp
+[2.985s] [ 74%] [32m[1mLinking CXX shared library libarucosrvmsg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.071s] [ 74%] Built target arucosrvmsg__rosidl_typesupport_fastrtps_cpp
+[3.095s] [ 74%] Built target arucosrvmsg
+[3.120s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.555s] [ 76%] Built target arucosrvmsg__py
+[3.566s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_generator_py[0m
+[3.580s] [ 79%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_py.dir/rosidl_generator_py/arucosrvmsg/msg/_markers_s.c.o[0m
+[3.580s] [ 82%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_generator_py.dir/rosidl_generator_py/arucosrvmsg/srv/_service_s.c.o[0m
+[3.704s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/arucosrvmsg/libarucosrvmsg__rosidl_generator_py.so[0m
+[3.757s] [ 84%] Built target arucosrvmsg__rosidl_generator_py
+[3.772s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_c__pyext[0m
+[3.772s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_introspection_c__pyext[0m
+[3.772s] [35m[1mConsolidate compiler generated dependencies of target arucosrvmsg__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.790s] [ 92%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.791s] [ 92%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.791s] [ 92%] [32mBuilding C object CMakeFiles/arucosrvmsg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c.o[0m
+[3.899s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.900s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.900s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.948s] [100%] Built target arucosrvmsg__rosidl_typesupport_c__pyext
+[3.948s] [100%] Built target arucosrvmsg__rosidl_typesupport_fastrtps_c__pyext
+[3.951s] [100%] Built target arucosrvmsg__rosidl_typesupport_introspection_c__pyext
+[3.964s] Invoked command in '/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shridhar/Documents/ROSrevision/Task4/install/arucoserver:/home/shridhar/Documents/ROSrevision/Task3/install/hypo:/home/shridhar/Documents/ROSrevision/Task3/install/hypotopic:/opt/ros/humble /usr/bin/cmake --build /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg -- -j22 -l22
+[4.063s] Invoking command in '/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shridhar/Documents/ROSrevision/Task4/install/arucoserver:/home/shridhar/Documents/ROSrevision/Task3/install/hypo:/home/shridhar/Documents/ROSrevision/Task3/install/hypotopic:/opt/ros/humble /usr/bin/cmake --install /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg
+[4.072s] -- Install configuration: ""
+[4.072s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/ament_index/resource_index/rosidl_interfaces/arucosrvmsg
+[4.075s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg
+[4.075s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv
+[4.075s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail
+[4.075s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__functions.h
+[4.075s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__type_support.h
+[4.075s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__struct.h
+[4.075s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__functions.c
+[4.075s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/service.h
+[4.075s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg
+[4.075s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_generator_c__visibility_control.h
+[4.076s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/markers.h
+[4.076s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail
+[4.076s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__functions.c
+[4.076s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__struct.h
+[4.076s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__type_support.h
+[4.076s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__functions.h
+[4.076s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/library_path.sh
+[4.076s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/library_path.dsv
+[4.077s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_c.so
+[4.077s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_c.so" to ""
+[4.077s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg
+[4.077s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv
+[4.077s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail
+[4.077s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__rosidl_typesupport_fastrtps_c.h
+[4.078s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg
+[4.078s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.078s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail
+[4.078s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__rosidl_typesupport_fastrtps_c.h
+[4.078s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_c.so
+[4.078s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_c.so" to ""
+[4.078s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg
+[4.078s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv
+[4.079s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail
+[4.079s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__type_support.c
+[4.079s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__rosidl_typesupport_introspection_c.h
+[4.079s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg
+[4.079s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail
+[4.079s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__type_support.c
+[4.079s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__rosidl_typesupport_introspection_c.h
+[4.079s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.079s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_c.so
+[4.080s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_c.so" to ""
+[4.080s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_c.so
+[4.080s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_c.so" to ""
+[4.080s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg
+[4.080s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv
+[4.081s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail
+[4.081s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__struct.hpp
+[4.081s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__builder.hpp
+[4.081s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__traits.hpp
+[4.081s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/service.hpp
+[4.081s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg
+[4.081s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/markers.hpp
+[4.081s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail
+[4.081s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__traits.hpp
+[4.082s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__builder.hpp
+[4.082s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__struct.hpp
+[4.082s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg
+[4.082s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv
+[4.082s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail
+[4.082s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__rosidl_typesupport_fastrtps_cpp.hpp
+[4.082s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/dds_fastrtps
+[4.082s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg
+[4.082s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.083s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail
+[4.083s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp
+[4.083s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/dds_fastrtps
+[4.083s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_cpp.so
+[4.083s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.083s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg
+[4.083s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv
+[4.083s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail
+[4.083s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__rosidl_typesupport_introspection_cpp.hpp
+[4.083s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/srv/detail/service__type_support.cpp
+[4.084s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg
+[4.084s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail
+[4.084s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp
+[4.084s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/include/arucosrvmsg/arucosrvmsg/msg/detail/markers__type_support.cpp
+[4.084s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_cpp.so
+[4.084s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_introspection_cpp.so" to ""
+[4.084s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_cpp.so
+[4.084s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_typesupport_cpp.so" to ""
+[4.084s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/pythonpath.sh
+[4.085s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/pythonpath.dsv
+[4.085s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info
+[4.085s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/top_level.txt
+[4.085s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.085s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/PKG-INFO
+[4.085s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.086s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg
+[4.086s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/libarucosrvmsg__rosidl_generator_py.so
+[4.086s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv
+[4.086s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/_service.py
+[4.086s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/_service_s.c
+[4.086s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/__init__.py
+[4.086s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c
+[4.086s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.087s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.087s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.087s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg
+[4.087s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/_markers.py
+[4.087s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/_markers_s.c
+[4.087s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/__init__.py
+[4.087s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c
+[4.088s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/__init__.py
+[4.088s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.138s] Listing '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg'...
+[4.138s] Compiling '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/__init__.py'...
+[4.138s] Listing '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg'...
+[4.138s] Compiling '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/__init__.py'...
+[4.138s] Compiling '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/msg/_markers.py'...
+[4.138s] Listing '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv'...
+[4.138s] Compiling '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/__init__.py'...
+[4.138s] Compiling '/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/srv/_service.py'...
+[4.144s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.144s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.144s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.145s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.145s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.145s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/local/lib/python3.10/dist-packages/arucosrvmsg/arucosrvmsg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.145s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_py.so
+[4.146s] -- Set runtime path of "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/lib/libarucosrvmsg__rosidl_generator_py.so" to ""
+[4.146s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/msg/Markers.idl
+[4.146s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/srv/Service.idl
+[4.146s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/msg/Markers.msg
+[4.146s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/srv/Service.srv
+[4.146s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/srv/Service_Request.msg
+[4.146s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/srv/Service_Response.msg
+[4.146s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/ament_index/resource_index/package_run_dependencies/arucosrvmsg
+[4.146s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/ament_index/resource_index/parent_prefix_path/arucosrvmsg
+[4.146s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/ament_prefix_path.sh
+[4.146s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/ament_prefix_path.dsv
+[4.147s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/path.sh
+[4.147s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/environment/path.dsv
+[4.147s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/local_setup.bash
+[4.147s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/local_setup.sh
+[4.147s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/local_setup.zsh
+[4.147s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/local_setup.dsv
+[4.147s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/package.dsv
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/ament_index/resource_index/packages/arucosrvmsg
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_cExport.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_cExport-noconfig.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cExport.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cExport.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cExport.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cExport-noconfig.cmake
+[4.148s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_cppExport.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cppExport.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cppExport.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsg__rosidl_typesupport_cppExport-noconfig.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_pyExport.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/export_arucosrvmsg__rosidl_generator_pyExport-noconfig.cmake
+[4.149s] -- Installing: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/rosidl_cmake-extras.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.149s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_libraries-extras.cmake
+[4.150s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/ament_cmake_export_targets-extras.cmake
+[4.150s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.150s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.150s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsgConfig.cmake
+[4.150s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/cmake/arucosrvmsgConfig-version.cmake
+[4.150s] -- Up-to-date: /home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg/share/arucosrvmsg/package.xml
+[4.153s] Invoked command in '/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shridhar/Documents/ROSrevision/Task4/install/arucoserver:/home/shridhar/Documents/ROSrevision/Task3/install/hypo:/home/shridhar/Documents/ROSrevision/Task3/install/hypotopic:/opt/ros/humble /usr/bin/cmake --install /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg

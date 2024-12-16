@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from arucosrvmsg/msg/Markers.msg
+// generated code does not contain a copyright notice
+
+
+module arucosrvmsg {
+  module msg {
+    struct Markers {
+      sequence<float> corners;
+
+      sequence<int32> ids;
+    };
+  };
+};
