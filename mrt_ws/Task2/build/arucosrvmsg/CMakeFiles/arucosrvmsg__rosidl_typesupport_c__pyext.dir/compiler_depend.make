@@ -242,31 +242,25 @@ CMakeFiles/arucosrvmsg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruc
   /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__type_support.h \
+  rosidl_generator_c/arucosrvmsg/msg/detail/markers__type_support.h \
   rosidl_generator_c/arucosrvmsg/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__struct.h \
+  rosidl_generator_c/arucosrvmsg/msg/detail/markers__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h \
-  rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__functions.h \
-  rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__type_support.h \
-  rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__struct.h \
+  rosidl_generator_c/arucosrvmsg/msg/detail/markers__functions.h \
+  rosidl_generator_c/arucosrvmsg/srv/detail/service__type_support.h \
+  rosidl_generator_c/arucosrvmsg/srv/detail/service__struct.h \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__functions.h
+  rosidl_generator_c/arucosrvmsg/srv/detail/service__functions.h
 
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h:
 
-rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__struct.h:
+rosidl_generator_c/arucosrvmsg/srv/detail/service__struct.h:
 
-rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__functions.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h:
-
-rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__struct.h:
+rosidl_generator_c/arucosrvmsg/msg/detail/markers__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -282,13 +276,13 @@ rosidl_generator_c/arucosrvmsg/msg/rosidl_generator_c__visibility_control.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
+rosidl_generator_c/arucosrvmsg/msg/detail/markers__functions.h:
+
 /usr/include/python3.10/import.h:
 
 /usr/include/python3.10/intrcheck.h:
 
 /usr/include/python3.10/osmodule.h:
-
-rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__type_support.h:
 
 /usr/include/python3.10/tracemalloc.h:
 
@@ -432,6 +426,8 @@ rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+rosidl_generator_c/arucosrvmsg/srv/detail/service__type_support.h:
+
 /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
 /usr/include/python3.10/bltinmodule.h:
@@ -540,8 +536,6 @@ rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__functions.h:
-
 /usr/include/python3.10/cpython/traceback.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -575,6 +569,8 @@ rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__functions.h:
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+rosidl_generator_c/arucosrvmsg/msg/detail/markers__type_support.h:
 
 /usr/include/python3.10/objimpl.h:
 
@@ -626,7 +622,7 @@ rosidl_generator_c/arucosrvmsg/srv/detail/aruco_markers__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__type_support.h:
+rosidl_generator_c/arucosrvmsg/srv/detail/service__functions.h:
 
 /usr/include/python3.10/cpython/pythonrun.h:
 
@@ -637,8 +633,6 @@ rosidl_generator_c/arucosrvmsg/msg/detail/aruco_markers__type_support.h:
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 

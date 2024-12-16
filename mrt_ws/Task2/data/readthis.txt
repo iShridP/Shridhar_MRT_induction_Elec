@@ -1,3 +1,0 @@
-This is a directory where all jpg snapshots of video will be stored. these videos will be deleted right after program sends these jpg files to server.
-
-non existance of this folder will make program to create fresh new folder called data at this location.

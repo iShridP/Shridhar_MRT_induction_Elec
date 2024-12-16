@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg
+CMAKE_SOURCE_DIR = /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg
+CMAKE_BINARY_DIR = /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

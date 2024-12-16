@@ -1,6 +1,0 @@
-[console_scripts]
-imageclient = arucoserver.image_client:main
-service = arucoserver.service:main
-videoclient = arucoserver.video_client:main
-webcamclient = arucoserver.webcam_client:main
-

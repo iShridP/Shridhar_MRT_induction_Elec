@@ -15,17 +15,15 @@ setup(
     zip_safe=True,
     maintainer='shridhar',
     maintainer_email='Shridhar.g.patil1@gmail.com',
-    description='serverAruco',
+    description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'service=arucoserver.service:main',
-        	'testaruco=arucoserver.servicetest:main',
-        	'videoaruco1 = arucoserver.videoserver1:main',
-        	'videoaruco2 = arucoserver.videoserver2:main',
-        	'webcam = arucoserver.webcam:capture_and_send_images',
-        	'nonstopwebcam = arucoserver.nonstopwebcam:capture_and_send_images',
+            'service = arucoserver.service:main',
+            'imageclient = arucoserver.image_client:main',
+            'videoclient = arucoserver.video_client:main',
+            'webcamclient = arucoserver.webcam_client:main',
         ],
     },
 )

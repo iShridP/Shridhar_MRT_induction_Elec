@@ -1,59 +1,83 @@
+#! usr/env/bin python3
+
 import rclpy
 from rclpy.node import Node
+
 from sensor_msgs.msg import Image
-from arucosrvmsg.srv import ArucoMarkers  
-from geometry_msgs.msg import Polygon, Point32
+from arucosrvmsg.msg import Markers
+from arucosrvmsg.srv import Service
+
 from cv_bridge import CvBridge
 import cv2
-import cv2.aruco as aruco
 
-class ArucoMarkerService(Node):
+import numpy
+
+
+class ArucoService(Node):
     def __init__(self):
-        super().__init__('aruco_marker_service')
-        
-        
-        self.service = self.create_service(ArucoMarkers, 'detect_aruco', self.detect_aruco_callback)
+        super().__init__('ArucoService')
+
         self.bridge = CvBridge()
-        self.get_logger().info('Aruco Marker Service is ready')
 
-    def detect_aruco_callback(self, request, response):
+        self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
+        self.parameters = cv2.aruco.DetectorParameters()
+
+        self.detector = cv2.aruco.ArucoDetector(self.aruco_dict, self.parameters)
+
+        self.arucoservice = self.create_service(Service,'DetectionService',self.generateResponse)
         
-        cv_image = self.bridge.imgmsg_to_cv2(request.image, 'bgr8')
-
         
-        aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_250)  
+    def generateResponse(self, request, response):
+        cv_image = self.bridge.imgmsg_to_cv2(request.image, desired_encoding="bgr8")
 
-     
-        parameters = aruco.DetectorParameters()
+        corners, ids, rejected = self.detector.detectMarkers(cv_image)
 
-       
-        corners, ids, ignored = aruco.detectMarkers(cv_image, aruco_dict, parameters=parameters)
+        idsL = []
 
-     
-        if ids is not None:
-            response.ids = ids.flatten().tolist()
+        if ids is not None :
+        
+            ids = ids.flatten()
 
-           
-            for marker_corners in corners:
-                polygon = Polygon()
-                for corner in marker_corners[0]:
-                    point = Point32()
-                    point.x = float(corner[0])  #x 
-                    point.y = float(corner[1])  #y
-                    polygon.points.append(point)
-                response.bounding_boxes.append(polygon)
+            for k in ids:
+                idsL.append(int(k))
+            #corners = corners.flatten()
 
-            self.get_logger().info(f'Detected {len(response.ids)} markers')
+            L = []
+
+            for i in corners:
+                Point = i.flatten()
+                tempL = []
+                for m in Point:
+                    tempL.append(float(m))
+                L.extend(tempL)
+
+
+            response.markers.ids = idsL
+    
+            response.markers.corners = L
+        
         else:
-            self.get_logger().info('No markers detected')
-        
+            response.markers.ids = []
+
+            response.markers.corners = []
+
+        print(f"Detected {len(idsL)} ArUco Markers")
+
+
         return response
 
-def main(args=None):
-    rclpy.init(args=args)
-    node = ArucoMarkerService()
-    rclpy.spin(node)
-    rclpy.shutdown()
 
-if __name__ == '__main__':
+def main(args = None):
+    rclpy.init(args=args)
+    ArucoServiceNode = ArucoService()
+    rclpy.spin(ArucoServiceNode)
+    rclpy.shutdown()
+    ArucoServiceNode.destroy_node()
+
+if __name__ == "__main__":
     main()
+        
+
+        
+
+

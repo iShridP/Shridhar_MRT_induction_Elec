@@ -3,11 +3,11 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/arucosrvmsg/msg/__init__.py"
-  "../rosidl_generator_py/arucosrvmsg/msg/_aruco_markers.py"
-  "../rosidl_generator_py/arucosrvmsg/msg/_aruco_markers_s.c"
+  "../rosidl_generator_py/arucosrvmsg/msg/_markers.py"
+  "../rosidl_generator_py/arucosrvmsg/msg/_markers_s.c"
   "../rosidl_generator_py/arucosrvmsg/srv/__init__.py"
-  "../rosidl_generator_py/arucosrvmsg/srv/_aruco_markers.py"
-  "../rosidl_generator_py/arucosrvmsg/srv/_aruco_markers_s.c"
+  "../rosidl_generator_py/arucosrvmsg/srv/_service.py"
+  "../rosidl_generator_py/arucosrvmsg/srv/_service_s.c"
   "CMakeFiles/arucosrvmsg__py"
 )
 

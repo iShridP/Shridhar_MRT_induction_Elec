@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000365] (-) JobUnselected: {'identifier': 'addthreeints'}
-[0.000429] (-) JobUnselected: {'identifier': 'makeexit'}
-[0.000469] (-) JobUnselected: {'identifier': 'serveradd'}
-[0.000501] (-) JobUnselected: {'identifier': 'threeinttopic'}
-[0.000532] (-) EventReactorShutdown: {}

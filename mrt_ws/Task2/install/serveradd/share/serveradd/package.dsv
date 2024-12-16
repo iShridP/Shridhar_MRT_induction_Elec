@@ -1,6 +1,0 @@
-source;share/serveradd/hook/pythonpath.ps1
-source;share/serveradd/hook/pythonpath.dsv
-source;share/serveradd/hook/pythonpath.sh
-source;share/serveradd/hook/ament_prefix_path.ps1
-source;share/serveradd/hook/ament_prefix_path.dsv
-source;share/serveradd/hook/ament_prefix_path.sh

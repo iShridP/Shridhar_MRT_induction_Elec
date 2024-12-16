@@ -9,13 +9,11 @@ setup.py
 ../../build/arucoserver/arucoserver.egg-info/top_level.txt
 ../../build/arucoserver/arucoserver.egg-info/zip-safe
 arucoserver/__init__.py
-arucoserver/nonstopwebcam.py
+arucoserver/findWebcam.py
+arucoserver/image_client.py
 arucoserver/service.py
-arucoserver/servicetest.py
-arucoserver/temp.py
-arucoserver/videoserver1.py
-arucoserver/videoserver2.py
-arucoserver/webcam.py
+arucoserver/video_client.py
+arucoserver/webcam_client.py
 resource/arucoserver
 test/test_copyright.py
 test/test_flake8.py

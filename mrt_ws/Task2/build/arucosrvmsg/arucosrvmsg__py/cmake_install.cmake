@@ -1,8 +1,8 @@
-# Install script for directory: /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/arucosrvmsg__py
+# Install script for directory: /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/arucosrvmsg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/shridhar/Workspaces/mrt_ws/Task2/install/arucosrvmsg")
+  set(CMAKE_INSTALL_PREFIX "/home/shridhar/Documents/ROSrevision/Task4/install/arucosrvmsg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

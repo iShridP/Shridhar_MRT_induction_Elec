@@ -1,6 +1,6 @@
-msg/ArucoMarkers.idl
-msg/ArucoMarkers.msg
-srv/ArucoMarkers.idl
-srv/ArucoMarkers.srv
-srv/ArucoMarkers_Request.msg
-srv/ArucoMarkers_Response.msg
+msg/Markers.idl
+msg/Markers.msg
+srv/Service.idl
+srv/Service.srv
+srv/Service_Request.msg
+srv/Service_Response.msg

@@ -1,4 +1,0 @@
-source;share/arucosrvmsg/local_setup.bash
-source;share/arucosrvmsg/local_setup.dsv
-source;share/arucosrvmsg/local_setup.sh
-source;share/arucosrvmsg/local_setup.zsh

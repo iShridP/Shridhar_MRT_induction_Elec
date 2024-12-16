@@ -1,10 +1,10 @@
 {
   "package_name": "arucosrvmsg",
-  "output_dir": "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_generator_c/arucosrvmsg",
+  "output_dir": "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_generator_c/arucosrvmsg",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:msg/ArucoMarkers.idl",
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:srv/ArucoMarkers.idl"
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:msg/Markers.idl",
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:srv/Service.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -112,8 +112,8 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/msg/ArucoMarkers.idl",
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/srv/ArucoMarkers.idl",
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/msg/Markers.idl",
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/srv/Service.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",

@@ -1,1 +1,1 @@
-from arucosrvmsg.srv._aruco_markers import ArucoMarkers  # noqa: F401
+from arucosrvmsg.srv._service import Service  # noqa: F401

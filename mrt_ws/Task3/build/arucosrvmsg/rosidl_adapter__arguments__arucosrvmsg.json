@@ -1,7 +1,0 @@
-{
-  "package_name": "arucosrvmsg",
-  "non_idl_tuples": [
-    "/home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg:msg/Markers.msg",
-    "/home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg:srv/Service.srv"
-  ]
-}

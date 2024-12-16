@@ -5,6 +5,6 @@ arucosrvmsg.egg-info/SOURCES.txt
 arucosrvmsg.egg-info/dependency_links.txt
 arucosrvmsg.egg-info/top_level.txt
 arucosrvmsg/msg/__init__.py
-arucosrvmsg/msg/_aruco_markers.py
+arucosrvmsg/msg/_markers.py
 arucosrvmsg/srv/__init__.py
-arucosrvmsg/srv/_aruco_markers.py
+arucosrvmsg/srv/_service.py

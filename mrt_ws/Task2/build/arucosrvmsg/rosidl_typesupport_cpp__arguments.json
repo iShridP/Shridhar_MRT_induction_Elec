@@ -1,10 +1,10 @@
 {
   "package_name": "arucosrvmsg",
-  "output_dir": "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_typesupport_cpp/arucosrvmsg",
+  "output_dir": "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_typesupport_cpp/arucosrvmsg",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:msg/ArucoMarkers.idl",
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:srv/ArucoMarkers.idl"
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:msg/Markers.idl",
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg:srv/Service.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -105,8 +105,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/msg/ArucoMarkers.idl",
-    "/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/srv/ArucoMarkers.idl",
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/msg/Markers.idl",
+    "/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_adapter/arucosrvmsg/srv/Service.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",

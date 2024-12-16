@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg
+CMAKE_SOURCE_DIR = /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg
+CMAKE_BINARY_DIR = /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg
 
 # Utility rule file for ament_cmake_python_copy_arucosrvmsg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_arucosrvmsg:
-	/usr/bin/cmake -E copy_directory /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_generator_py/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/ament_cmake_python/arucosrvmsg/arucosrvmsg
+	/usr/bin/cmake -E copy_directory /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_generator_py/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/ament_cmake_python/arucosrvmsg/arucosrvmsg
 
 ament_cmake_python_copy_arucosrvmsg: CMakeFiles/ament_cmake_python_copy_arucosrvmsg
 ament_cmake_python_copy_arucosrvmsg: CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/depend:
-	cd /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_arucosrvmsg.dir/depend
 

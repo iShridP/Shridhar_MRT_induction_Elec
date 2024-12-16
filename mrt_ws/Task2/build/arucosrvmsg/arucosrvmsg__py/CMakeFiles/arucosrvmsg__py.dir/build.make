@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg
+CMAKE_SOURCE_DIR = /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg
+CMAKE_BINARY_DIR = /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg
 
 # Utility rule file for arucosrvmsg__py.
 
@@ -69,12 +69,12 @@ include arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/progress.make
 arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
 arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c
 arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c
-arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_aruco_markers.py
-arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_aruco_markers.py
+arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_markers.py
+arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_service.py
 arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/__init__.py
 arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/__init__.py
-arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_aruco_markers_s.c
-arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_aruco_markers_s.c
+arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_markers_s.c
+arucosrvmsg__py/CMakeFiles/arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_service_s.c
 
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -89,8 +89,8 @@ rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arucosrvmsg/msg/ArucoMarkers.idl
-rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arucosrvmsg/srv/ArucoMarkers.idl
+rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arucosrvmsg/msg/Markers.idl
+rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arucosrvmsg/srv/Service.idl
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -181,8 +181,8 @@ rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/arucosrvmsg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/arucosrvmsg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c
@@ -190,11 +190,11 @@ rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspecti
 rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/arucosrvmsg/msg/_aruco_markers.py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/msg/_aruco_markers.py
+rosidl_generator_py/arucosrvmsg/msg/_markers.py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/msg/_markers.py
 
-rosidl_generator_py/arucosrvmsg/srv/_aruco_markers.py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/srv/_aruco_markers.py
+rosidl_generator_py/arucosrvmsg/srv/_service.py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/srv/_service.py
 
 rosidl_generator_py/arucosrvmsg/msg/__init__.py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/msg/__init__.py
@@ -202,22 +202,22 @@ rosidl_generator_py/arucosrvmsg/msg/__init__.py: rosidl_generator_py/arucosrvmsg
 rosidl_generator_py/arucosrvmsg/srv/__init__.py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/srv/__init__.py
 
-rosidl_generator_py/arucosrvmsg/msg/_aruco_markers_s.c: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/msg/_aruco_markers_s.c
+rosidl_generator_py/arucosrvmsg/msg/_markers_s.c: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/msg/_markers_s.c
 
-rosidl_generator_py/arucosrvmsg/srv/_aruco_markers_s.c: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/srv/_aruco_markers_s.c
+rosidl_generator_py/arucosrvmsg/srv/_service_s.c: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arucosrvmsg/srv/_service_s.c
 
 arucosrvmsg__py: arucosrvmsg__py/CMakeFiles/arucosrvmsg__py
 arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_c.c
 arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_fastrtps_c.c
 arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/_arucosrvmsg_s.ep.rosidl_typesupport_introspection_c.c
 arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/__init__.py
-arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_aruco_markers.py
-arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_aruco_markers_s.c
+arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_markers.py
+arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/msg/_markers_s.c
 arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/__init__.py
-arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_aruco_markers.py
-arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_aruco_markers_s.c
+arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_service.py
+arucosrvmsg__py: rosidl_generator_py/arucosrvmsg/srv/_service_s.c
 arucosrvmsg__py: arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/build.make
 .PHONY : arucosrvmsg__py
 
@@ -226,10 +226,10 @@ arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/build: arucosrvmsg__py
 .PHONY : arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/build
 
 arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/clean:
-	cd /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/arucosrvmsg__py && $(CMAKE_COMMAND) -P CMakeFiles/arucosrvmsg__py.dir/cmake_clean.cmake
+	cd /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/arucosrvmsg__py && $(CMAKE_COMMAND) -P CMakeFiles/arucosrvmsg__py.dir/cmake_clean.cmake
 .PHONY : arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/clean
 
 arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/depend:
-	cd /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/arucosrvmsg__py /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/arucosrvmsg__py /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/arucosrvmsg__py /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/arucosrvmsg__py /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : arucosrvmsg__py/CMakeFiles/arucosrvmsg__py.dir/depend
 

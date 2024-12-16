@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg
+CMAKE_SOURCE_DIR = /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg
+CMAKE_BINARY_DIR = /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg
 
 # Utility rule file for arucosrvmsg.
 
@@ -66,10 +66,10 @@ include CMakeFiles/arucosrvmsg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/arucosrvmsg.dir/progress.make
 
-CMakeFiles/arucosrvmsg: /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg/msg/ArucoMarkers.msg
-CMakeFiles/arucosrvmsg: /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg/srv/ArucoMarkers.srv
-CMakeFiles/arucosrvmsg: rosidl_cmake/srv/ArucoMarkers_Request.msg
-CMakeFiles/arucosrvmsg: rosidl_cmake/srv/ArucoMarkers_Response.msg
+CMakeFiles/arucosrvmsg: /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg/msg/Markers.msg
+CMakeFiles/arucosrvmsg: /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg/srv/Service.srv
+CMakeFiles/arucosrvmsg: rosidl_cmake/srv/Service_Request.msg
+CMakeFiles/arucosrvmsg: rosidl_cmake/srv/Service_Response.msg
 CMakeFiles/arucosrvmsg: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/arucosrvmsg: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/arucosrvmsg: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -98,36 +98,6 @@ CMakeFiles/arucosrvmsg: /opt/ros/humble/share/sensor_msgs/msg/RelativeHumidity.i
 CMakeFiles/arucosrvmsg: /opt/ros/humble/share/sensor_msgs/msg/Temperature.idl
 CMakeFiles/arucosrvmsg: /opt/ros/humble/share/sensor_msgs/msg/TimeReference.idl
 CMakeFiles/arucosrvmsg: /opt/ros/humble/share/sensor_msgs/srv/SetCameraInfo.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Inertia.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/InertiaStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/PoseArray.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/PoseStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovariance.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Quaternion.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/QuaternionStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Transform.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/TransformStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Twist.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/TwistStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
-CMakeFiles/arucosrvmsg: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 
 arucosrvmsg: CMakeFiles/arucosrvmsg
 arucosrvmsg: CMakeFiles/arucosrvmsg.dir/build.make
@@ -142,6 +112,6 @@ CMakeFiles/arucosrvmsg.dir/clean:
 .PHONY : CMakeFiles/arucosrvmsg.dir/clean
 
 CMakeFiles/arucosrvmsg.dir/depend:
-	cd /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/src/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg /home/shridhar/Workspaces/mrt_ws/Task2/build/arucosrvmsg/CMakeFiles/arucosrvmsg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/src/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg /home/shridhar/Documents/ROSrevision/Task4/build/arucosrvmsg/CMakeFiles/arucosrvmsg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/arucosrvmsg.dir/depend
 
