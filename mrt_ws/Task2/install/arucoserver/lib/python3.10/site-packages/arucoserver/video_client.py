@@ -34,7 +34,7 @@ class VideoClient(Node):
         script_dir = os.path.dirname(script_path)
 
 
-        video_path = f"/home/shridhar/Workspaces/mrt_ws/Task3/src/arucoserver/arucoserver/Requests/Aruco_1.MOV"
+        video_path = f"/home/shridhar/Workspaces/mrt_ws/Task2/src/arucoserver/arucoserver/Requests/Aruco_1.MOV"
 
         print(video_path)
 

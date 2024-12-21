@@ -39,7 +39,7 @@
             </geometry> 
         </collision>
 
-        <xacro:Inertial_Box mass = "${base_mass}" x = "2" y = "1.2" z = "0.5"> <!--check with geomtery size tag-->
+        <xacro:Inertial_Box mass = "${base_mass}" x = "2" y = "1.2" z = "0.5"> <!--check with geometery size tag-->
             <origin xyz ="0 0 0" rpy = "0 0 0"/> 
         </xacro:Inertial_Box>
     </link>

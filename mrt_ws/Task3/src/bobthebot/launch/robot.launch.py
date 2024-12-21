@@ -25,6 +25,11 @@ def generate_launch_description():
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
+        #ros2 run <package name> <executable name> will run this node but will have to manually provide all params ourself.
+        #hence start with ros2 launch <launch file> since it will:
+            #process xacro file
+            #take in launch arguments (here, about use_sim_time)
+            #pass these arguments into the node and then start node.
         output='screen',
         parameters=[params]
     )

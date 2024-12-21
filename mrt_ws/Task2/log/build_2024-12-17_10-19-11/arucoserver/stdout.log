@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/arucoserver/arucoserver.egg-info/PKG-INFO
+writing dependency_links to ../../build/arucoserver/arucoserver.egg-info/dependency_links.txt
+writing entry points to ../../build/arucoserver/arucoserver.egg-info/entry_points.txt
+writing requirements to ../../build/arucoserver/arucoserver.egg-info/requires.txt
+writing top-level names to ../../build/arucoserver/arucoserver.egg-info/top_level.txt
+reading manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'
+writing manifest file '../../build/arucoserver/arucoserver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying arucoserver/video_client.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver
+copying arucoserver/image_client.py -> /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver
+running install
+running install_lib
+copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/video_client.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver
+copying /home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/build/lib/arucoserver/image_client.py -> /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver
+byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/video_client.py to video_client.cpython-310.pyc
+byte-compiling /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver/image_client.py to image_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/arucoserver/arucoserver.egg-info to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/python3.10/site-packages/arucoserver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imageclient script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver
+Installing service script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver
+Installing videoclient script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver
+Installing webcamclient script to /home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver/lib/arucoserver
+writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task2/build/arucoserver/install.log'

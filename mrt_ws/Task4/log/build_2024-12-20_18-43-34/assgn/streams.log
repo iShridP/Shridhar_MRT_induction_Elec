@@ -1,0 +1,41 @@
+[0.614s] Invoking command in '/home/shridhar/Workspaces/mrt_ws/Task4/src/assgn': PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assgn build --build-base /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build install --record /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/install.log --single-version-externally-managed install_data
+[0.847s] running egg_info
+[0.847s] creating ../../build/assgn/assgn.egg-info
+[0.848s] writing ../../build/assgn/assgn.egg-info/PKG-INFO
+[0.848s] writing dependency_links to ../../build/assgn/assgn.egg-info/dependency_links.txt
+[0.848s] writing entry points to ../../build/assgn/assgn.egg-info/entry_points.txt
+[0.848s] writing requirements to ../../build/assgn/assgn.egg-info/requires.txt
+[0.848s] writing top-level names to ../../build/assgn/assgn.egg-info/top_level.txt
+[0.848s] writing manifest file '../../build/assgn/assgn.egg-info/SOURCES.txt'
+[0.849s] reading manifest file '../../build/assgn/assgn.egg-info/SOURCES.txt'
+[0.850s] writing manifest file '../../build/assgn/assgn.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.850s] creating /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build
+[0.850s] creating /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build/lib
+[0.851s] creating /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build/lib/assgn
+[0.851s] copying assgn/96.py -> /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build/lib/assgn
+[0.851s] copying assgn/__init__.py -> /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build/lib/assgn
+[0.851s] running install
+[0.851s] running install_lib
+[0.852s] creating /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages/assgn
+[0.852s] copying /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build/lib/assgn/96.py -> /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages/assgn
+[0.852s] copying /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build/lib/assgn/__init__.py -> /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages/assgn
+[0.852s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages/assgn/96.py to 96.cpython-310.pyc
+[0.853s] byte-compiling /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages/assgn/__init__.py to __init__.cpython-310.pyc
+[0.853s] running install_data
+[0.853s] creating /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/assgn/worlds
+[0.853s] copying worlds/mrs_hudson_arena.sdf -> /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/assgn/worlds
+[0.853s] creating /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/assgn/launch
+[0.853s] copying launch/mrs_hudson_world.launch.py -> /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/assgn/launch
+[0.854s] creating /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/ament_index
+[0.854s] creating /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/ament_index/resource_index
+[0.854s] creating /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/ament_index/resource_index/packages
+[0.854s] copying resource/assgn -> /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/ament_index/resource_index/packages
+[0.854s] copying package.xml -> /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/share/assgn
+[0.854s] running install_egg_info
+[0.856s] Copying ../../build/assgn/assgn.egg-info to /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages/assgn-0.0.0-py3.10.egg-info
+[0.857s] running install_scripts
+[0.876s] Installing 96 script to /home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/assgn
+[0.877s] writing list of installed files to '/home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/install.log'
+[0.899s] Invoked command in '/home/shridhar/Workspaces/mrt_ws/Task4/src/assgn' returned '0': PYTHONPATH=/home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shridhar/Workspaces/mrt_ws/Task4/install/assgn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assgn build --build-base /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/build install --record /home/shridhar/Workspaces/mrt_ws/Task4/build/assgn/install.log --single-version-externally-managed install_data

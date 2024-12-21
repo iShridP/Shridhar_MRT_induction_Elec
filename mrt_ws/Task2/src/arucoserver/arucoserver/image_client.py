@@ -20,7 +20,7 @@ class ImageClient(Node):
         script_path = os.path.abspath(__file__)
         script_dir = os.path.dirname(script_path)
 
-        self.cv_image = cv2.imread(f'/home/shridhar/Workspaces/mrt_ws/Task3/src/arucoserver/arucoserver/Requests/ArucoImage.jpg')
+        self.cv_image = cv2.imread(f'/home/shridhar/Workspaces/mrt_ws/Task2/src/arucoserver/arucoserver/Requests/ArucoImage.jpg')
 
         if self.cv_image is None:
             print("Cannot load image")

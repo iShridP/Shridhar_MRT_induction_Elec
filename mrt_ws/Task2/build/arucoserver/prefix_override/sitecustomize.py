@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/shridhar/Workspaces/mrt_ws/Task3/install/arucoserver'
+    sys.prefix = sys.exec_prefix = '/home/shridhar/Workspaces/mrt_ws/Task2/install/arucoserver'
